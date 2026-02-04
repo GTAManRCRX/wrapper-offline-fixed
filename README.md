@@ -6,7 +6,8 @@ Besides the main feature of Wrapper offline, the original creators added other a
 [Find more info in the wiki.](https://github.com/Wrapper-Offline/Wrapper-Offline/wiki)
 
 ## THIS IS A MODIFIED VERSION OF THE SOFTWARE!!!  
-IF YOU WANT TO DOWNLOAD THE ORIGINAL VERSION, GET IT FROM THIS LINK: [Wrapper offline](https://github.com/wrapper-offline/wrapper-offline.git)
+IF YOU WANT TO DOWNLOAD THE ORIGINAL VERSION, GET IT FROM THE LINK BELOW  
+[Wrapper offline](https://github.com/wrapper-offline/wrapper-offline.git)
 
 ## Running
 This is the Linux version of Wrapper offline, therefore if you use Windows, you have to make your own build manually  
