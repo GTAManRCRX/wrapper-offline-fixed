@@ -9,7 +9,7 @@ It achieves this by replicating the original API and asset servers entirely on t
 This project is important for archival purposes, as the ability to use the legacy GoAnimate editor and themes would be far trickier without it
 
 ## Downloads / Installation
-To install Wrapper offline, you need to download the releases listed in this fork
+To install my forked version of Wrapper offline, you need to download it through the [releases page](https://github.com/GTAManRCRX/wrapper-offline-modded/releases/)
 
 ## Updates & Support
 For support, the first thing you should do is to [read through the Wrapper offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki) as it most likely has what you want to know    
@@ -47,6 +47,7 @@ Name | Contribution
 [It'sJay](https://github.com/PoleyMagik) | Asset store archive, client modifications
 
 No members of the original GoAnimate Wrapper team are officially working on Offline, even if they have contributed. Some members of the original team have asked to not be given credit, and they have been removed
+
 
 
 
