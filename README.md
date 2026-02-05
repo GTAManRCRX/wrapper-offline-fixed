@@ -4,16 +4,16 @@
   <br/>
 </div>
 
-Wrapper offline is a program designed to provide readily obtainable, irrevocable access to GoAnimate's retired assets in the modern era  
-It achieves this by replicating the original API and asset servers entirely on the user's computer while providing a simplistic frontend to interact with them  
+Wrapper offline is a program designed to provide readily obtainable, irrevocable access to GoAnimate's retired assets in the modern era    
+It achieves this by replicating the original API and asset servers entirely on the user's computer while providing a simplistic frontend to interact with them    
 This project is important for archival purposes, as the ability to use the legacy GoAnimate editor and themes would be far trickier without it
 
 ## Downloads / Installation
 To install Wrapper offline, you need to download the releases listed in this fork
 
 ## Updates & Support
-For support, the first thing you should do is to [read through the Wrapper offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki) as it most likely has what you want to know  
-Alternatively, if you can't find what you need, you can join the [Discord server](https://discord.gg/Kf7BzSw)  
+For support, the first thing you should do is to [read through the Wrapper offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki) as it most likely has what you want to know    
+Alternatively, if you can't find what you need, you can join the [Discord server](https://discord.gg/Kf7BzSw)    
 Joining the server is recommended, as there is a whole community that can help you out
 
 ## Development
@@ -30,7 +30,7 @@ To build a full copy of Wrapper offline:
 ```
 npm run package
 ```
-This is a ready-made version. You just need to run Wrapper offline in the folder the package creator just made based on your computer's architecture  
+This is a ready-made version. You just need to run Wrapper offline in the folder the package creator just made based on your computer's architecture    
 Since I only have `Linux` installed, you need to build the `Windows` and the `macOS` versions separately
 
 ## License
@@ -47,5 +47,6 @@ Name | Contribution
 [It'sJay](https://github.com/PoleyMagik) | Asset store archive, client modifications
 
 No members of the original GoAnimate Wrapper team are officially working on Offline, even if they have contributed. Some members of the original team have asked to not be given credit, and they have been removed
+
 
 
