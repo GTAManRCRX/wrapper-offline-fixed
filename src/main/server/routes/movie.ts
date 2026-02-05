@@ -52,7 +52,7 @@ group.route("GET", "/api/movie/get_info", (req, res) => {
 	if (movie) {
 		res.json(movie.data);
 	} else {
-		res.status(404).json({msg:"Movie not found."});
+		res.status(404).json({msg:"Movie not found"});
 	}
 });
 
@@ -242,7 +242,7 @@ group.route("POST", "/api/movie/upload", (req, res) => {
 			Buffer.from([0x50, 0x4b, 0x03, 0x04])
 		)
 	) {
-		return res.status(400).json({ msg: "Movie is not a zip." });
+		return res.status(400).json({ msg: "Movie is not a ZIP" });
 	}
 
 	MovieModel.upload(buffer, isStarter).then((id) => {
@@ -326,7 +326,7 @@ group.route("POST", ["/goapi/saveMovie/", "/goapi/saveTemplate/"], (req, res) =>
 	if (!body.subarray(0, 4).equals(
 		Buffer.from([0x50, 0x4b, 0x03, 0x04])
 	)) {
-		return res.status(400).end("body_zip is not a zip");
+		return res.status(400).end("body_zip is not a ZIP");
 	}
 	
 	res.log(`Saving movie #${movieId || "<new movie>"}...`);
