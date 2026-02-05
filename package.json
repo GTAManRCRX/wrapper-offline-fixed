@@ -10,7 +10,6 @@
 		"test": "mocha",
 		"dev": "concurrently \"node scripts/build.mjs --dev\" \"vite dev\"",
 		"build": "vite build && node scripts/build.mjs",
-		"preview": "npm run build && electron dist/main.js",
 		"package": "npm run build && npx electron-packager dist"
 	},
 	"engines": {
