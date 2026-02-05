@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list version="1.0">
+	<fvm_meta theme_code="" is_biz="0"/>
+	
+	<theme id="custom" name="Comedy world" cc_theme_id="family" col="1"/>
+	<theme id="politics2" name="US election 2012" col="1"/>
+	<theme id="anime" name="Anime" cc_theme_id="anime" col="1"/>
+	<theme id="ninjaanime" name="Ninja anime" cc_theme_id="ninjaanime" col="1"/>
+	<theme id="spacecitizen" name="Space citizens" cc_theme_id="spacecitizen" col="1"/>
+	<theme id="fullenergy" name="Full energy" col="1"/>
+
+	<theme id="action" name="Lil' peepz" cc_theme_id="cc2" col="2"/>
+	<theme id="chibi" name="Chibi peepz" cc_theme_id="chibi" col="2"/>
+	<theme id="space" name="Space peepz" cc_theme_id="cc2" col="2"/>
+	<theme id="animal" name="Lil' petz" cc_theme_id="cc2" col="2"/>
+	<theme id="ninja" name="Chibi ninjas" cc_theme_id="ninja" col="2"/>
+	<theme id="vietnam" name="Jungle warfare" cc_theme_id="cc2" col="2"/>
+
+	<theme id="ben10" name="Ben 10" col="3"/>
+	<theme id="bunny" name="It's happy bunny" col="3"/>
+	<theme id="chowder" name="Chowder" col="3"/>
+	<theme id="domo" name="Domo" col="3"/>
+	<theme id="monkeytalk" name="SuperRica and Rashy" col="3"/>
+	<theme id="akon" name="AKON" col="3"/>
+
+	<theme id="retro" name="Cartoon classics" col="4"/>
+	<theme id="stick" name="Stick figure" col="4"/>
+	<theme id="politic" name="Politics and celebrity" col="4"/>
+	<theme id="christmas" name="Holiday and seasonal" col="4"/>
+	<theme id="monstermsh" name="Monsters mayhem" col="4"/>
+	<theme id="startrek" name="Star Trek quogs" col="4"/>
+
+	<theme id="willie" name="Willie Nelson" col="5"/>
+	<theme id="street" name="Street" col="5"/>
+	<theme id="underdog" name="Saturday morning TV" col="5"/>
+	<theme id="sf" name="Street Fighter" col="5"/>
+	<theme id="toonadv" name="Toon adventure" col="5"/>
+	<theme id="cctoonadventure" name="Toon adventure CC" cc_theme_id="cctoonadventure" col="5"/>
+
+	<theme id="common" name="Common"/>
+	<word>show_us_xxxx_in_the_classroom</word>
+	<whiteword/>
+	<excludeAssetIDs/>
+	<points money="0" sharing="0"/>
+</list>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list version="1.0">
+	<fvm_meta theme_code="" is_biz="0"/>
+	<theme id="custom" name="Comedy world" cc_theme_id="family" col="1"/>
+	<theme id="politics2" name="US election 2012" col="1"/>
+	<theme id="anime" name="Anime" cc_theme_id="anime" col="1"/>
+	<theme id="ninjaanime" name="Ninja anime" cc_theme_id="ninjaanime" col="1"/>
+
+	<theme id="politic" name="Politics and celebrity" col="2"/>
+	<theme id="cctoonadventure" name="Toon adventure CC" cc_theme_id="cctoonadventure" col="2"/>
+	<theme id="retro" name="Cartoon classics" col="2"/>
+	<theme id="stick" name="Stick figure" col="2"/>
+	<theme id="spacecitizen" name="Space citizens" cc_theme_id="spacecitizen" col="2"/>
+
+	<theme id="action" name="Lil' peepz" cc_theme_id="cc2" col="3"/>
+	<theme id="chibi" name="Chibi peepz" cc_theme_id="chibi" col="3"/>
+	<theme id="space" name="Space peepz" cc_theme_id="cc2" col="3"/>
+	<theme id="animal" name="Lil' petz" cc_theme_id="cc2" col="3"/>
+	<theme id="ninja" name="Chibi ninjas" cc_theme_id="ninja" col="3"/>
+
+	<theme id="common" name="Common"/>
+	<word/>
+	<whiteword/>
+	<excludeAssetIDs/>
+	<points money="0" sharing="0"/>
+</list>
