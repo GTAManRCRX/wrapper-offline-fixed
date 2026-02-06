@@ -1,6 +1,3 @@
-// so we're using newer versions of libraries that introduce things that this version of electron doesn't support
-// but since we can't upgrade electron, we'll need to modify the modules to make it compatible again
-
 const fs = require("fs");
 const { join } = require("path");
 
