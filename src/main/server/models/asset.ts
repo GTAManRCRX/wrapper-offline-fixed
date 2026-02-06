@@ -45,10 +45,6 @@ const header = process.env.XML_HEADER;
 export default class AssetModel {
 	static folder = directories.asset;
 
-	/**
-	 * Deletes an asset.
-	 * @param id Asset ID
-	 */
 	static delete(id:string) {
 		const asset = Database.get("assets", id);
 		if (!asset) {
@@ -71,9 +67,6 @@ export default class AssetModel {
 		}
 	};
 
-	/**
-	 * Returns a buffer or stream. Throws an error if the asset doesn't exist.
-	 */
 	static load(id:string, returnBuffer:false): fs.ReadStream
 	static load(id:string, returnBuffer:true): Buffer
 	static load(id:string, returnBuffer = false): fs.ReadStream | Buffer {
@@ -91,11 +84,6 @@ export default class AssetModel {
 		return data;
 	};
 
-	/**
-	 * returns an array of assets 
-	 * @param filters object containing all properties an asset object should have
-	 * @param returnXml if true, returns a ugc theme xml instead of an array of `Asset`s
-	 */
 	static list(filters:Partial<Asset>, returnXml:true): string
 	static list(filters:Partial<Asset>, returnXml:false): Asset[]
 	static list(returnXml:true): string
@@ -123,10 +111,6 @@ export default class AssetModel {
 		return files;
 	};
 
-	/**
-	 * returns the info of an asset, throws 404 if it doesn't
-	 * @param id Asset ID
-	 */
 	static getInfo(id:string): Asset {
 		const info = Database.get("assets", id);
 		if (info == false) {
@@ -135,9 +119,6 @@ export default class AssetModel {
 		return info.data;
 	}
 
-	/**
-	 * updates asset info, throws 404 if asset doesn't exist
-	 */
 	static updateInfo(id:string, info:Partial<Asset>): void {
 		const success = Database.update("assets", id, info);
 		if (!success) {
@@ -145,11 +126,6 @@ export default class AssetModel {
 		}
 	}
 
-	/**
-	 * checks if an asset exists by its id
-	 * @param id Asset ID
-	 * @param checkDBInstead check using the database instead of the existence of a file
-	 */
 	static exists(id:string, checkDBInstead = false) {
 		if (checkDBInstead) {
 			const asset = Database.get("assets", id);
@@ -160,11 +136,6 @@ export default class AssetModel {
 		return exists;
 	};
 
-	/**
-	 * converts an asset or starter object to a theme xml node
-	 * @param v asset or starter object
-	 * @returns theme xml node with the asset information
-	 */
 	static meta2Xml(v:Asset | Starter) {
 		const apiServer = `${process.env.API_SERVER_HOST}:${process.env.API_SERVER_PORT}`;
 		// sanitize stuff
@@ -203,12 +174,6 @@ export default class AssetModel {
 		return xml;
 	};
 
-	/**
-	 * Saves an asset.
-	 * @param data read stream, buffer, or file path
-	 * @param idOrExt asset file extension, or a predetermined id including the ext
-	 * @param info information about the asset. id, name, type, etc
-	 */
 	static save(
 		data:fs.ReadStream | Buffer | string,
 		idOrExt:string,
