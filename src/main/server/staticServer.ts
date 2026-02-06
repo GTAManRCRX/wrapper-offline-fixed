@@ -23,12 +23,6 @@ const ccCharObject2Xml = (char:CCCharObject, themeId:string) =>
 const themeZipPattern = /^\/store\/[\da-zA-Z]+\/([\S]+)\/\1.zip$/;
 const themeXmlPattern = /^\/store\/[\da-zA-Z]+\/([\S]+)\/theme.xml$/;
 
-/**
- * handles requests for studio theme zips
- * @param themeId theme id
- * @param returnZip should return the raw xml or a zip containing it
- * @param res server response object
- */
 async function handleStudioTheme(
 	themeId: string,
 	returnZip: boolean,
@@ -45,11 +39,6 @@ async function handleStudioTheme(
 	}
 }
 
-/**
- * adds stock characters to studio themes with corresponding cc themes
- * @param themeId theme id
- * @param themeXml theme xml
- */
 function fixThemeXml(themeId:string, themeXml:Buffer): Buffer {
 	const ccThemeIdStart = themeXml.indexOf("cc_theme_id=\"") + 13;
 	if (ccThemeIdStart == 12) {
@@ -72,10 +61,6 @@ function fixThemeXml(themeId:string, themeXml:Buffer): Buffer {
 	]);
 }
 
-/**
- * returns an array of stock cc char objects
- * @param themeId theme id
- */
 function readStockCCChars(themeId:string): CCCharObject[] {
 	const filepath = path.join(Directories.static, "characters/index.json");
 	const contents = readFileSync(filepath, {
