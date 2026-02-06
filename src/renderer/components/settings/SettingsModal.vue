@@ -1,7 +1,6 @@
 <style lang="css">
 .popup_container.settings_popup .contents {
-	overflow-y: scroll;
-	width: 776px;
+	width: 775px;
 	height: 400px;
 }
 
