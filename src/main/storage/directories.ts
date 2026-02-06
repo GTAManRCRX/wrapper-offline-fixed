@@ -28,11 +28,11 @@ class DirUtil {
 	}
 
 	get userData() {
-		return join(__dirname, "/data");
+		return join(__dirname, "userdata");
 	}
 
 	get static() {
-		return join(__dirname, "/static");
+		return join(__dirname, "static");
 	}
 
 	get asset() {
