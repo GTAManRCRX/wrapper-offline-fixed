@@ -14,7 +14,7 @@
 table.list_tree {
 	border-collapse: collapse;
 	border-spacing: 0;
-	table-layout: fixed;
+	table-layout: auto;
 	width: 100%;
 }
 
@@ -78,7 +78,7 @@ thead.list_head .sort_option {
 	color: hsl(218deg 14% 24%);
 	transition: background 0.2s var(--button-anim);
 	font-weight: normal;
-	text-align: left;
+	text-align: center;
 	line-height: 15px;
 	padding: 10px 6px;
 }
@@ -98,7 +98,7 @@ thead.list_head .sort_option:hover {
 	background: hsl(338deg 55% 91%);
 	transition: none;
 }
-/* resize dragger */
+
 thead.list_head th .dragger {
 	cursor: col-resize;
 	position: absolute;
@@ -127,6 +127,7 @@ table.list_tree tbody tr td {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	padding: 10px 6px;
+	text-align: center;
 }
 table.list_tree tbody tr td.hidden {
 	opacity: 0;
@@ -165,15 +166,6 @@ table.list_tree tbody tr.checked td.hidden {
 .multiselect table.list_tree tbody tr td.actions.hidden {
 	opacity: 0;
 }
-
-/* tr.folder td.title .folder_icon {
-	margin-right: 7px;
-	min-width: calc(calc(calc(v-bind("zoomLevel.css()") - 20px) / 9) * 16);
-	height: calc(v-bind("zoomLevel.css()") - 20px);
-}
-div.folder .thumbnail_container img {
-	height: calc(calc(calc(calc(calc(4 * v-bind("zoomLevel.css()")) - 14px) / 16) * 9) - 1px);
-} */
 
 .list_tree_container.load_state tbody {
 	transition: none;
@@ -236,7 +228,7 @@ div.folder .thumbnail_container img {
 	margin: 6px 0 4px;
 	width: calc(calc(4 * v-bind("zoomLevel.css()")) - 14px);
 }
-/* iv, duration */
+
 .list_tree_container.grid table.list_tree tbody tr td:nth-child(3),
 .list_tree_container.grid table.list_tree tbody tr td:nth-child(4) {
 	background: #000a;
@@ -324,12 +316,12 @@ html.dark table.list_tree tbody tr:hover {
 html.dark table.list_tree tbody tr.checked {
 	background: hsl(342 47% 40% / 0.45);
 }
-/* grid mode */
+
 html.dark .list_tree_container.grid table.list_tree tbody tr {
 	background-color: hsl(246deg 8% 18%);
 	border-color: hsl(250deg 11% 26%);
 }
-/* iv, duration */
+
 html.dark .list_tree_container.grid table.list_tree tbody tr td:nth-child(3),
 html.dark .list_tree_container.grid table.list_tree tbody tr td:nth-child(4) {
 	background: #000a;
@@ -380,25 +372,17 @@ interface ListData {
 };
 
 const emit = defineEmits<{
-	/** emitted when a column has been resized. [id, new width] */
 	columnResize: [string, number],
-	/** id of the new entry field to sort by */
 	sortChange: [string],
 }>();
 const props = defineProps<{
-	/** list of entries and folders */
 	data: ListData,
-	/** list of columns to display */
 	columns: ListFieldColumn<ListEntry>[],
-	/** id of the column to sort by */
 	selectedSort: SelectedListSort<ListEntry>,
 	restrictions?: {
-		/** restrict supported view modes */
 		mode?: "list" | "grid",
 	},
-	/** row component to use when displaying entries */
 	rowComponent: ListRow,
-	/** component to use for row options */
 	rowOptionsComponent: RowOptions,
 }>();
 const modeRestriction = props?.restrictions?.mode ?? false;
@@ -424,7 +408,6 @@ const filteredEntryIds:{
 	entries: [],
 };
 const listRows = useTemplateRef("list-row");
-/** current view mode */
 const mode = () => modeRestriction ? modeRestriction : viewMode.value;
 
 function dataFilterFunc(v:Folder|ListEntry, shouldContain:string, resultArray:string[]) {
