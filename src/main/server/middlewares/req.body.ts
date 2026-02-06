@@ -1,9 +1,6 @@
 import formidable from "formidable";
 import type { Request, Response } from "@octanuary/httpz";
 
-/**
- * request body parser
- */
 export default async function reqBody(
 	req:Request,
 	res:Response,
