@@ -1,6 +1,5 @@
 import { reactive } from "vue";
 
-/** list needs to be refreshed */
 const pendingRefresh = reactive({
 	value: false,
 	set(newValue: boolean) {
@@ -8,7 +7,6 @@ const pendingRefresh = reactive({
 	}
 });
 
-/** searcg box input */
 const search = reactive({
 	value: "",
 	set(newValue: string) {
@@ -16,7 +14,6 @@ const search = reactive({
 	}
 });
 
-/** list view, grid or list */
 const viewMode = reactive({
 	value: localStorage.getItem("list_view") || "list",
 	set(newValue: "list"|"grid") {
@@ -25,7 +22,6 @@ const viewMode = reactive({
 	}
 });
 
-/** size of list elements */
 const zoomLevel = reactive({
 	value: localStorage.getItem("list_zoomLevel") || "60",
 	set(newValue: number) {
