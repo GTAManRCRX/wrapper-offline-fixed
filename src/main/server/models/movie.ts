@@ -26,13 +26,8 @@ export type Starter = {
 export default class MovieModel {
 	static folder = directories.saved;
 
-	/**
-	 * deletes a movie do i really have to explain this to you
-	 * @param id movie id
-	 */
 	static delete(id:string): Promise<void> {
 		return new Promise((res, rej) => {
-			// if movie delete from movies, if starter delete from assets
 			if (database.get("movies", id)) {
 				database.delete("movies", id);
 			} else if (database.select("assets", {
@@ -50,11 +45,6 @@ export default class MovieModel {
 		});
 	}
 
-	/**
-	 * packs a movie into a zip to be loaded by the videomaker
-	 * @param id movie id
-	 * @returns zip file containing the movie
-	 */
 	static async packMovie(id:string): Promise<Buffer> {
 		if (!this.exists(id)) {
 			throw "404";
@@ -70,16 +60,6 @@ export default class MovieModel {
 		return zipped;
 	}
 
-	/*
-	extraction
-	*/
-
-	/**
-	 * extracts audio information from a movie xml
-	 * @param id movie id
-	 * @returns list of objects representing audio clips and how they
-	 * should be played
-	 */
 	static async extractAudioTimes(id:string): Promise<{
 		filepath: string,
 		start: number,
@@ -104,11 +84,6 @@ export default class MovieModel {
 		return audio;
 	}
 
-	/**
-	 * Gets movie metadata from an XML.
-	 * @param id movie id
-	 * @returns movie information 
-	 */
 	static async extractMeta(id:string): Promise<{
 		date: Date,
 		durationString: string,
@@ -123,7 +98,6 @@ export default class MovieModel {
 		}
 		const buffer = fs.readFileSync(filepath);
 
-		// title
 		let title = buffer.subarray(
 			buffer.indexOf("<title>") + 16,
 			buffer.indexOf("]]></title>")
@@ -132,7 +106,6 @@ export default class MovieModel {
 			title = "Untitled";
 		}
 
-		// get the duration string
 		const durBeg = buffer.indexOf('duration="') + 10;
 		const duration = Number.parseFloat(buffer.subarray(
 			durBeg,
@@ -159,14 +132,6 @@ export default class MovieModel {
 		};
 	}
 
-	/**
-	 * what do you think
-	 * @param xml the movie xml
-	 * @param thumb movie thumbnail in .png format
-	 * @param id movie id, if overwriting an old one
-	 * @param saveAsStarter
-	 * @returns movie id
-	 */
 	static save(
 		xml:Buffer,
 		thumbnail:Buffer | void,
@@ -186,7 +151,6 @@ export default class MovieModel {
 			fs.writeFileSync(join(this.folder, id + ".xml"), xml);
 
 			const meta = await this.extractMeta(id);
-			// cat meoww x3
 			let dbCat:"assets"|"movies";
 			const info:Movie|Starter = {
 				id: id,
@@ -199,7 +163,7 @@ export default class MovieModel {
 				info.watermark = Settings.defaultWatermark;
 			}
 			if (
-				// new starter
+
 				(newMovie && saveAsStarter) ||
 				database.select("assets", {
 					id: id,
@@ -219,22 +183,10 @@ export default class MovieModel {
 		});
 	}
 
-	/**
-	 * assigns a watermark to a movie
-	 * @param mId movie id
-	 * @param wId watermark id
-	 */
 	static setWatermark(mId:string, wId?:string) {
 		return database.update("movies", mId, { watermark: wId });
 	}
 
-	/**
-	 * moves a selection of movies or folders to a target folder
-	 * throws '404' if target folder doesn't exist
-	 * @param movies list of movie ids
-	 * @param movieFolders list of movie folders
-	 * @param targetFolderId target folder to move selection to
-	 */
 	static moveToFolder(
 		{
 			movieIds,
@@ -267,11 +219,6 @@ export default class MovieModel {
 		}
 	}
 
-	/**
-	 * renames a folder
-	 * @param path folder path
-	 * @param newName new folder name
-	 */
 	static renameFolder(path:string, newName:string) {
 		let movies = database.select("movies");
 		movies = movies.filter((m) => m.parent_id && m.parent_id.startsWith(path));
@@ -292,10 +239,6 @@ export default class MovieModel {
 		}
 	}
 
-	/**
-	 * deletes a folder by moving all moves to parent
-	 * @param path folder path
-	 */
 	static deleteFolder(path:string) {
 		let newParent = path.split("/").slice(0, -1).join("/") ?? "";
 		const movies = database.select("movies").filter(m => {
@@ -314,11 +257,6 @@ export default class MovieModel {
 		}
 	}
 
-	/**
-	 * checks if a movie exists
-	 * @param id movie id
-	 * @returns whether it exists or not
-	 */
 	static exists(id:string): boolean {
 		if (
 			!database.get("movies", id) &&
@@ -332,12 +270,7 @@ export default class MovieModel {
 		return true;
 	}
 
-	/**
-	 * returns a movie thumbnail stream. throws "404" if movie doesn't exist
-	 * @param id movie id
-	 */
 	static thumb(id:string) {
-		// look for match in folder
 		const filepath = join(this.folder, `${id}.png`);
 		if (fs.existsSync(filepath)) {
 			const readStream = fs.createReadStream(filepath);
@@ -347,12 +280,6 @@ export default class MovieModel {
 		}
 	}
 
-	/**
-	 * unpacks a movie zip
-	 * @param body zip containing the movie and its assets
-	 * @param isStarter is the movie being uploaded as a starter
-	 * @returns movie id
-	 */
 	static upload(body:Buffer, isStarter = false): Promise<string> {
 		return new Promise(async (res, rej) => {
 			const id = generateId();
