@@ -7,7 +7,6 @@
 	"private": true,
 	"scripts": {
 		"postinstall": "node scripts/fixModules.js",
-		"test": "mocha",
 		"dev": "concurrently \"node scripts/build.mjs --dev\" \"vite dev\"",
 		"build": "vite build && node scripts/build.mjs",
 		"package": "npm run build && npx electron-packager dist"
