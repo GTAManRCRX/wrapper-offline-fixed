@@ -68,11 +68,26 @@ function deleteBtn_click() {
 function movieInfo(field:FieldIdOf<MovieEntry>): string {
 	switch (field) {
 		case "date": {
-			const split = props.entry.date.split("T");
-			const date = split[0];
-			const time = split[1].substring(0, 8);
-			return `${date}, ${time}`;
-		}
+    			const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    			if (!props.entry.date) return '—';
+
+		const d = new Date(props.entry.date);
+			if (isNaN(d.getTime())) return props.entry.date;
+
+		const day = d.getDate();
+		let ordinal = 'th';
+
+		if (day % 10 === 1 && day !== 11) ordinal = 'st';
+		else if (day % 10 === 2 && day !== 12) ordinal = 'nd';
+		else if (day % 10 === 3 && day !== 13) ordinal = 'rd';
+
+const hours = String(d.getHours()).padStart(2, '0');
+const minutes = String(d.getMinutes()).padStart(2, '0');
+const seconds = String(d.getSeconds()).padStart(2, '0');
+
+return `${day}${ordinal} of ${months[d.getMonth()]} ${d.getFullYear()} - ${hours}:${minutes}:${seconds}`;}
+
+
 		default: return props.entry[field].toString();
 	}
 }
