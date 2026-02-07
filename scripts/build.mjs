@@ -67,7 +67,6 @@ function restartMain() {
 		"npx " +
 		[
 			"electron",
-			"--no-deprecation",
 			options.main.outfile,
 			"--dev=true",
 			`--host=${DEV_HOST}`,
@@ -158,7 +157,7 @@ if (process.argv.includes("--dev")) {
 	};
 	writeFileSync("dist/package.json", JSON.stringify(pkgJson));
 	spawn(
-		"npm i --no-package-lock",
+		"npm i --audit=false --fund=false --loglevel=error",
 		{
 			shell: true,
 			cwd: join(import.meta.dirname, "../dist"),
