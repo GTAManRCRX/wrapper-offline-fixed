@@ -22,6 +22,11 @@ export default defineConfig({
 		outDir: "./dist/renderer",
 		rollupOptions: {
 			input: ["./index.html"],
+			output: {
+				entryFileNames: `r_assets/index.js`,
+				chunkFileNames: `r_assets/index.js`,
+				assetFileNames: `r_assets/index.css`
+			}
 		},
 		cssTarget: "chrome86",
 	},
