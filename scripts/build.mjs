@@ -157,7 +157,7 @@ if (process.argv.includes("--dev")) {
 	};
 	writeFileSync("dist/package.json", JSON.stringify(pkgJson));
 	spawn(
-		"npm i --audit=false --fund=false --loglevel=error",
+		"npm i --audit=false --fund=false --loglevel=error --no-package-lock",
 		{
 			shell: true,
 			cwd: join(import.meta.dirname, "../dist"),
