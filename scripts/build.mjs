@@ -127,15 +127,23 @@ if (process.argv.includes("--dev")) {
 		console.warn("⚠️ Resources are not found at " + staticSource);
 	}
 
-	console.log("Copying favicon to the build folder");
-	const faviconSource = join(import.meta.dirname, "../resources/favicon.ico");
-	const faviconDest = join(import.meta.dirname, "../dist/favicon.ico");
+	console.log("Copying favicons to the build folder");
+	const favTypes = [
+		{ name: "favicon.ico", src: "../resources/favicon.ico", dest: "../dist/favicon.ico" },
+		{ name: "favicon.icns", src: "../resources/favicon.icns", dest: "../dist/favicon.icns" },
+		{ name: "favicon.png", src: "../resources/favicon.png", dest: "../dist/favicon.png" }
+	];
 
-	if (existsSync(faviconSource)) {
-		cpSync(faviconSource, faviconDest, { recursive: true });
-		console.log("✅ Favicon has been successfully copied");
-	} else {
-		console.warn("⚠️ Favicon is not found at " + faviconSource);
+	for (const fav of favTypes) {
+		const srcPath = join(import.meta.dirname, fav.src);
+		const destPath = join(import.meta.dirname, fav.dest);
+
+		if (existsSync(srcPath)) {
+			cpSync(srcPath, destPath); 
+			console.log(`✅ ${fav.name} has been successfully copied`);
+		} else {
+			console.warn(`⚠️ ${fav.name} is not found at ${srcPath}`);
+		}
 	}
 
 	const pkgJson = {
