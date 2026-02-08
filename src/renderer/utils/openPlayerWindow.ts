@@ -2,17 +2,17 @@ export default function openPlayerWindow(movieId: string) {
     const isWideRaw = localStorage.getItem("isWide_active");
     const isWide = isWideRaw === null ? true : (isWideRaw === "true" || isWideRaw === "1");
 
-    const baseWidth = 1280;
-    const innerHeight = isWide ? 720 : 823;
+    const width = Math.round(Math.max(screen.availWidth * 0.6666));
 
-    const framePadding = 26; 
-    const width = baseWidth;
-    const height = innerHeight + framePadding;
+    const videoHeight = isWide ? Math.round(width / (16 / 9)) : Math.round(width / (14 / 9));
 
-    const left = Math.round((screen.width - width) / 2);
-    const top = Math.round((screen.height - height) / 2);
+    const basePadding = isWide ? 26 : 26;
+    const framePadding = basePadding;
 
-    console.log(`The current resolution: ${baseWidth}x${innerHeight} - Aspect ratio: ${isWide ? '16:9' : '14:9'}`);
+    const height = videoHeight + framePadding;
+
+    const left = Math.round((screen.availWidth - width) / 2);
+    const top = Math.round((screen.availHeight - height) / 2);
 
     window.open(
         `?redirect=/movies/play/${movieId}`,
