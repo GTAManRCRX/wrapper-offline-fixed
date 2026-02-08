@@ -54,12 +54,23 @@ app.commandLine.appendSwitch("disable-http-cache");
 let mainWindow:BrowserWindow;
 let root:string;
 const createWindow = () => {
+
+	let iconPath: string;
+
+		if (process.platform === 'win32') {
+    			iconPath = join(__dirname, 'favicon.ico');
+		} else if (process.platform === 'darwin') {
+    			iconPath = join(__dirname, 'favicon.icns');
+		} else {
+    			iconPath = join(__dirname, 'favicon.png');
+		}
+
 	mainWindow = new BrowserWindow({
 		width: 1280,
 		height: 720,
 		title: "Wrapper offline",
-		show: "false",
-		icon: join(__dirname, "favicon.ico"),
+		show: false,
+		icon: iconPath,
 		webPreferences: {
 			preload: join(__dirname, "preload.js"),
 			plugins: true,
