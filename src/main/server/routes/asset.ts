@@ -24,7 +24,6 @@ group.route("POST", "/api_v2/asset/delete/", (req, res) => {
 	if (typeof id == "undefined") {
 		return res.status(400).json({ status:"error" });
 	}
-
 	try {
 		const asset = AssetModel.getInfo(id) as Asset | Starter;
 		if (asset.type == "movie") {
@@ -74,7 +73,6 @@ group.route("POST", "/goapi/getUserAssetsXml/", (req, res) => {
 	} else if (!req.body.themeId) {
 		return res.status(400).end("1<error><code>malformed</code><message/></error>");
 	}
-
 	let themeId:string;
 	switch (req.body.themeId) {
 		case "custom":
@@ -126,7 +124,6 @@ group.route("POST", "/api_v2/asset/get", (req, res) => {
 	if (!id) {
 		return res.status(404).json({status:"error"});
 	}
-
 	try {
 		const info = AssetModel.getInfo(id);
 		const extraInfo = {
@@ -154,14 +151,12 @@ group.route("POST", "/api_v2/asset/update/", (req, res) => {
 	if (!id || title === null) {
 		return res.status(400).json({status:"error"});
 	}
-
 	const update:Partial<Asset> = {
 		title: title
 	};
 	if (tags) {
 		update.tags = tags;
 	}
-
 	try {
 		AssetModel.updateInfo(id, update);
 		res.json({status:"ok"});
@@ -178,7 +173,6 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 	if (typeof file === "undefined" || !req.body.type || !req.body.subtype) {
 		return res.status(400).json({msg:"Missing required parameters."});
 	}
-
 	const { filepath } = file;
 	const filename = path.parse(file.originalFilename).name;
 	const ext = (await fromFile(filepath))?.ext;
@@ -207,7 +201,6 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 					stream = fs.createReadStream(filepath);
 				}
 				stream.pause();
-
 				info.id = await AssetModel.save(stream, ext == "swf" ? ext : "png", info);
 				break;
 			}
@@ -217,7 +210,6 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 				} else {
 					stream = fs.createReadStream(filepath);
 				}
-
 				const temppath = tempfile(".mp3");
 				const writeStream = fs.createWriteStream(temppath);
 				await new Promise(async (resolve, reject) => {
@@ -315,7 +307,6 @@ group.route("POST", "/goapi/saveSound/", async (req, res) => {
 		subtype: req.body.subtype,
 		title: req.body.title
 	};
-
 	try {
 		if (ext != "mp3") {
 			stream = await fileUtil.convertToMp3(filepath, ext);
