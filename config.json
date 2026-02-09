@@ -12,10 +12,8 @@
 	"CHAR_BASE_URL": "/characters",
 	"THUMB_BASE_URL": "/thumbnails",
 
-	"USERDATA_DIR": "./_USERDATA",
 	"ASSET_FOLDER": "./_ASSETS",
-	"CACHE_FOLDER": "./_CACHÉ",
-	"EXPORT_FOLDER": "./_EXPORTS",
+	"CACHE_FOLDER": "./_CACHE",
 	"LOG_FOLDER": "./_LOGS",
 	"SAVED_FOLDER": "./_SAVED",
 	
