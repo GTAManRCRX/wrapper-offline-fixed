@@ -59,11 +59,11 @@ onUnmounted(() => {
 			<div class="about">
 				<img src="/img/logo_icon.svg"/>
 				<div>
-					<h1>Wrapper: Offline</h1>
+					<h1>Wrapper offline</h1>
 					<h3>Version {{ wrapperVer }}</h3>
 
 					<p>All original code written for Wrapper offline is<br/>
-						distributed under the MIT license.</p>
+						distributed under the MIT license</p>
 					
 					<div class="links">
 						<a href="javascript:window.appWindow.openDiscord();">Discord</a>
