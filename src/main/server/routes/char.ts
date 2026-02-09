@@ -110,28 +110,31 @@ group.route("POST", "/goapi/saveCCThumbs/", (req, res) => {
 });
 
 group.route("*", "/api/char/upload", (req, res) => {
-	const file = req.files.import;
-	if (!file) {
-		return res.status(400).json({ msg: "No file uploaded" });
-	} else if (file.mimetype !== "text/xml") {
-		return res.status(400).json({ msg: "Character is not an XML" });
-	}
-	const origName = file.originalFilename;
-	const path = file.filepath, buffer = fs.readFileSync(path);
+	const charFile = req.files.import;
+	if (!charFile) return res.status(400).json({ msg: "No file" });
+
+	const charTitle = path.parse(charFile.originalFilename || "").name || "Untitled";
+	const charPath = charFile.filepath;
+	const buffer = fs.readFileSync(charPath);
 
 	const meta:Partial<Char> = {
 		type: "char",
 		subtype: "0",
-		title: origName || "Untitled",
+		title: charTitle,
 		themeId: CharModel.getThemeId(buffer)
 	};
 	try {
-    		CharModel.save(buffer, meta); 
-    		fs.unlinkSync(path);
-    		res.json({ status: "ok", id: meta.id, themeId: meta.themeId }); 
+		CharModel.save(buffer, meta); 
+		fs.unlinkSync(charPath);
+		res.json({ 
+			status: "Character uploaded successfully", 
+			id: meta.id, 
+			themeId: meta.themeId, 
+			title: charTitle 
+		});
 	} catch (e) {
-    		console.error("Error uploading character:", e);
-    		res.status(500).json({ status: "error" });
+		console.error("Error uploading character:", e);
+		res.status(500).json({ status: "error" });
 	}
 });
 
