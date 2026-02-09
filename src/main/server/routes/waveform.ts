@@ -1,9 +1,9 @@
-import directories from "../../storage/directories";
+import Directories from "../../storage/directories";
 import fs from "fs";
 import httpz from "@octanuary/httpz";
 import path from "path";
 import Settings from "../../storage/settings";
-import WfModel from "../models/waveform.js";
+import WfModel from "../models/waveform";
 
 const group = new httpz.Group();
 
@@ -29,7 +29,7 @@ group.route("POST", "/goapi/getWaveform/", async (req, res) => {
 			res.status(500).end();
 		}
 	} else {
-		const filepath = path.join(directories.static, "waveform.txt");
+		const filepath = path.join(Directories.static, "waveform.txt");
 		if (fs.existsSync(filepath)) {
 			fs.createReadStream(filepath).pipe(res);
 		} else {
@@ -41,7 +41,7 @@ group.route("POST", "/goapi/saveWaveform/", (req, res) => {
 	const { waveform } = req.body;
 	const id = req.body.wfid;
 	if (!id) {
-		return res.status(500).end("Missing one or more fields.");
+		return res.status(500).end("Missing one or more fields");
 	}
 
 	try {
