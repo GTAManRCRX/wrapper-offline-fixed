@@ -20,6 +20,9 @@ If you want to import videos and characters from other instances of Wrapper offl
 For support, the first thing you should do is to head over the original creators' [Discord server](https://discord.gg/Kf7BzSw)  
 As only the original version gets official support, therefore don't expect any for this fork
 
+## WARNING  
+This version is deprecated, therefore won't receive any updates
+
 ## Dependencies
 This program relies on Flash and Node.js to work properly. Luckily, they require no download, as they have already been included in Wrapper offline.
 
