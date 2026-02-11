@@ -23,6 +23,12 @@
 	width: 550px;
 }
 
+html.dark .btn {
+	backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+	transition: background-color 0s !important, color 0s !important;
+}
+
 html.dark .tab_selector .tab_col {
 	border-color: #2c2b3b;
 }
