@@ -133,7 +133,7 @@ onUnmounted(() => {
 
 					<SettingToggle id="saveLogFiles" binary>
 						<template #title>Save log files</template>
-						<template #description>Saves everything in the console to the _LOGS folder. This may take up a lot of space if left on<br/>
+						<template #description>Saves everything in the console to the LOGS folder. This may take up a lot of space if left on<br/>
 							<i>Applies on next restart.</i></template>
 					</SettingToggle>
 				</div>
