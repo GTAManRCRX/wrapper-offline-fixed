@@ -1,4 +1,4 @@
-import brotli from "brotli";
+import { brotliDecompressSync, brotliCompressSync } from "zlib";
 import fileUtil from "../utils/fileUtil";
 import https from "https";
 import voiceList from "../data/voices.json";

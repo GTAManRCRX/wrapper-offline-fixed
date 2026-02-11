@@ -1,6 +1,7 @@
 import type { Asset } from "../models/asset";
 import AssetModel from "../models/asset";
 import { extensions, FileExtension, fromFile, mimeTypes } from "file-type";
+import Directories from "../../storage/directories";
 import Ffmpeg, { FfprobeData, ffprobe } from "fluent-ffmpeg";
 import { path as ffmpegPath } from "@ffmpeg-installer/ffmpeg";
 import { path as ffprobePath } from "@ffprobe-installer/ffprobe";
@@ -13,7 +14,9 @@ import mp3Duration from "mp3-duration";
 import path from "path";
 import { promisify } from "util";
 import Jimp from "jimp";
-import tempfile from "tempfile";
+import { randomBytes } from "crypto";
+
+const getAssetPath = (ext: string) => path.join(Directories.asset, `${randomBytes(16).toString("hex")}.${ext}`);
 
 Ffmpeg.setFfmpegPath(ffmpegPath);
 Ffmpeg.setFfprobePath(ffprobePath);
@@ -215,7 +218,7 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 				} else {
 					stream = fs.createReadStream(filepath);
 				}
-				const temppath = tempfile(".mp3");
+				const temppath = path.join(Directories.asset, `${randomBytes(16).toString("hex")}.mp3`);
 				const writeStream = fs.createWriteStream(temppath);
 				await new Promise(async (resolve, reject) => {
 					setTimeout(() => {
@@ -237,7 +240,7 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 					info.width = data.streams[0].width || data.streams[1].width;
 					info.height = data.streams[0].height || data.streams[1].width;
 
-					const temppath = tempfile(".flv");
+					const temppath = path.join(Directories.asset, `${randomBytes(16).toString("hex")}.flv`);
 					await new Promise(async (resolve, rej) => {	
 						Ffmpeg(filepath)
 							.output(temppath)
@@ -246,6 +249,7 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 							.run();
 					});
 					info.id = await AssetModel.save(temppath, "flv", info);
+					if (fs.existsSync(temppath)) fs.unlinkSync(temppath); 
 
 					const command = Ffmpeg(filepath)
 						.seek("0:00")
