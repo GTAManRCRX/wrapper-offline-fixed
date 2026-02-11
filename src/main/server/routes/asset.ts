@@ -303,42 +303,55 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 group.route("POST", "/goapi/saveSound/", async (req, res) => {
 	let isRecord = req.body.bytes ? true : false;
 
-	let filepath, ext, stream;
+	let filepath: string, ext: string, stream: any;
 	if (isRecord) {
-		filepath = tempfile(".ogg");
 		ext = "ogg";
+		filepath = path.join(Directories.asset, `${randomBytes(16).toString("hex")}.${ext}`);
 		const buffer = Buffer.from(req.body.bytes, "base64");
 		fs.writeFileSync(filepath, buffer);
 	} else {
-
 		filepath = req.files.Filedata.filepath;
 		ext = (await fromFile(filepath))?.ext;
 		if (!ext) {
 			return res.status(400).json({msg:"File type could not be determined."});
 		}
 	}
-
 	let info:Partial<Asset> = {
 		type: "sound",
 		subtype: req.body.subtype,
 		title: req.body.title
 	};
 	try {
+		let tempToUnlink = null;
 		if (ext != "mp3") {
 			stream = await fileUtil.convertToMp3(filepath, ext);
-			filepath = tempfile(".mp3");
-			const writeStream = fs.createWriteStream(filepath);
-			await new Promise((resolve) => stream.pipe(writeStream).on("end", resolve));
+			const temppath = path.join(Directories.asset, `${randomBytes(16).toString("hex")}.mp3`);
+			tempToUnlink = temppath;
+
+			const writeStream = fs.createWriteStream(temppath);
+			await new Promise((resolve, reject) => {
+				stream.pipe(writeStream)
+					.on("finish", resolve)
+					.on("error", reject);
+			});
+			if (isRecord && fs.existsSync(filepath)) {
+				fs.unlinkSync(filepath);
+			}
+			filepath = temppath;
 		}
 		info.duration = await mp3Duration(filepath) * 1e3;
 		const id = await AssetModel.save(filepath, "mp3", info as Asset);
-		res.end(
-			`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>${info.subtype}</subtype><title>${info.title}</title><published>0</published><tags></tags><duration>${info.duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset></response>`
-		);
+
+		if (tempToUnlink && fs.existsSync(tempToUnlink)) {
+			fs.unlinkSync(tempToUnlink);
+		}
+		if (isRecord && ext == "mp3" && fs.existsSync(filepath)) {
+			fs.unlinkSync(filepath);
+		}
+		res.end(`0<response><asset><id>${id}</id><enc_asset_id>${id}</enc_asset_id><type>sound</type><subtype>${info.subtype}</subtype><title>${info.title}</title><published>0</published><tags></tags><duration>${info.duration}</duration><downloadtype>progressive</downloadtype><file>${id}</file></asset></response>`);
 	} catch (e) {
 		console.error(req.parsedUrl.pathname, "failed. Error:", e);
 		res.status(500).json({status:"error"});
-		return;
 	}
 });
 
