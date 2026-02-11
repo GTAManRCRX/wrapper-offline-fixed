@@ -2,7 +2,7 @@ import Database, { generateId } from "../../storage/database";
 import Directories from "../../storage/directories";
 import fs from "fs";
 import path from "path";
-import Jimp from "jimp";
+import { Jimp } from "jimp";
 import { Readable } from "stream";
 
 type S = fs.ReadStream | Readable;
