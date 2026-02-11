@@ -15,6 +15,7 @@ import path from "path";
 import { promisify } from "util";
 import Jimp from "jimp";
 import { randomBytes } from "crypto";
+import { Readable } from "stream";
 
 const getAssetPath = (ext: string) => path.join(Directories.asset, `${randomBytes(16).toString("hex")}.${ext}`);
 

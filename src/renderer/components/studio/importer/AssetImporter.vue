@@ -96,7 +96,6 @@
 <script setup lang="ts">
 import type { AssetStatus } from "./ImporterFile.vue";
 import Button from "../../controls/Button.vue";
-import { filesize } from "filesize";
 import ImporterFile from "./ImporterFile.vue";
 import { ref, toValue, useTemplateRef } from "vue";
 
@@ -124,7 +123,15 @@ const supportedTypes = [
 	"webm",
 	"wmv",
 ];
-/* object passed to an ImporterFile element */
+
+function formatSize(bytes: number) {
+    if (bytes === 0) return "0 B";
+    const k = 1024;
+    const sizes = ["B", "KB", "MB", "GB", "TB"];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+}
+
 export type PendingFile = {
 	name: string,
 	ext: (typeof supportedTypes)[number],
@@ -185,7 +192,7 @@ function addFile(file:File) {
 		name: file.name,
 		ext,
 		file,
-		size: filesize(file.size, { standard:"jedec" }),
+		size: formatSize(file.size),
 	});
 }
 
@@ -193,8 +200,6 @@ function cancelClicked(file:PendingFile) {
 	const index = toValue(pendingFiles).indexOf(file);
 	pendingFiles.value.splice(index, 1);
 }
-
-/* pass events to studio */
 
 function onStatusUpdated(status:AssetStatus) {
 	emit("statusUpdated", status);
@@ -233,7 +238,6 @@ function onUploadSuccess(
 			</form>
 		</div>
 		<div class="importer_queue">
-			<!-- v-bind, force vue to not reuse elements on array changes -->
 			<ImporterFile
 				v-for="file in pendingFiles"
 				v-bind:key="file.name + +(new Date()).toString()"
