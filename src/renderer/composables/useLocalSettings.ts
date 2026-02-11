@@ -5,9 +5,9 @@ class LocalSettings {
 		ON_MOVIE_DCLICK: "edit" | "play" | "none",
 		ON_MOVIE_UPLOAD: "edit" | "play" | "none"
 	} = {
-		DARK_MODE: false,
+		DARK_MODE: true,
 		ON_MOVIE_DCLICK: "play",
-		ON_MOVIE_UPLOAD: "edit"
+		ON_MOVIE_UPLOAD: "play"
 	};
 
 	constructor() {
