@@ -8,19 +8,47 @@ Wrapper offline is a software designed to provide readily obtainable, irrevocabl
 It achieves this by replicating the original API and asset servers entirely on the user's computer while providing a simplistic frontend to interact with them    
 This project is important for archival purposes, as the ability to use the legacy GoAnimate editor and themes would be far trickier without it
 
-## THIS IS A VERSION OF THE SOFTWARE WITH BUGFIXES
-IF YOU WANT TO DOWNLOAD THE ORIGINAL VERSION, GET IT FROM THE LINK BELOW  
-[Wrapper offline](https://github.com/wrapper-offline/wrapper-offline.git)
+### 🚀 Wrapper offline 2.1.4 (The ultimate bugfix)  
+This version is a complete overhaul of the original 2.1.0 source code. Over 40+ critical bugs have been fixed, unnecessary dependencies removed, and the core packages swapped for maximum compatibility and portability
+### 🛠️ Major architectural changes
+- Sharp → Jimp migration: Replaced the binary-heavy Sharp with Jimp that is written in pure JavaScript. This enables 100% native Windows 7 support without needing VxKex or any kernel extensions
+- Pure portability: Separated temp and userdata from %APPDATA%. All data now stays within the program’s resources folder, leaving ZERO footprint in your appdata folder
+- Nodezip → AdmZip: Swapped the unreliable nodezip for AdmZip for stable ZIP compression and metadata handling
+- Automated build process: Fully automated the build script that handles asset relocation, icon selection (ICO/PNG/ICNS) and multi-arch packaging in a single go
+### 🐛 Critical bugfixes (The "fixed" list)
+- The "No head" glitch with two female characters: Fixed the infamous Comedy world animation bug where the character's head would disappear or detach when selecting blow kiss, or make fun of animations
+- Cache lock fixed: Fixed a bug where the scene would get stuck on "This character already has a voice" after creating a new scene
+- Resource simplification: Eliminated the redundant `resources/resources` folder structure that bloated the original build
+- Import fixes: Fully restored character and video import functionality by fixing broken path logic in the source code
+- Microphone fix: Resolved issues with native microphone recording
+- Ghost errors purged: Removed fake/misleading error messages that appeared during normal operation on the console
+### 💻 Compatibility and performance
+- Native x86 support: First-ever stable build for Windows x86 and Linux x86 architectures
+- Flash 34 integration: Upgraded to Clean Flash 34.0.0.137 (from 32.0.0.137) for better stability and performance
+- Dependency purge: Removed heavy and unnecessary dev-tools like mocha, supertest, nodemon, and brotli to reduce package size and overhead
+- FFprobe upgrade: Updated from 1.4.1 to 2.1.1 for better asset handling
+### UI polish:
+- Responsive settings panel with rounded corners, that look nice even on small screens
+- Dark mode is now the default
+- Removed the annoying flickering glitch of the sidebar
+- Centered video titles, IDs, and dates
+### 📝 User experience (UX)
+- Better TTS: Enhanced error handling for text-to-speech; removed broken/non-functional voice engines
+- Sentence casing: Replaced "Title Case" with the natural "Sentence case" across the UI and LVM
+- Readable dates: New format: Day [st/nd/rd/th] of Month YYYY - HH:MM:SS
+- Locked video player aspect ratio: Disabled window resizing for the player to prevent Flash distortion and maintain pixel-perfect rendering, as Flash is not a responsive technology
+### 💡 Why choose the THIS version?
+This version is built for longevity and stability. It runs on Windows 7 natively, consumes fewer resources, and fixes the most annoying bugs that occured in the previous Wrapper offline versions
 
-## Downloads / Installation
+### Downloads / Installation
 To install my forked version of Wrapper offline, you need to download it through the [releases page](https://github.com/GTAManRCRX/wrapper-offline-modded/releases/)
 
-## Updates and support
+### Updates and support
 For support, the first thing you should do is to [read through the Wrapper offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki) as it most likely has what you want to know    
 Alternatively if you can't find what you need, you can join the [Discord server](https://discord.gg/Kf7BzSw)
 Joining the server is recommended, as there is a whole community that can help you out
 
-## Building and testing
+### Building and testing
 To run Wrapper offline with a development server, first run this command
 ```
 npm install
@@ -38,21 +66,9 @@ To build a full copy of Wrapper offline
 ```
 npm run package
 ```
-This is a ready-made version. You just need to run Wrapper offline in the folder the package creator just made based on your computer's architecture    
-Since I only have `Linux` and `Windows` installed, you need to build the `macOS` versions manually
 
-## License
+### License
 Most of this project is free/libre software under the MIT license. You have the freedom to run, change, and share this as much as you want
 FFmpeg is under the GNU GPLv2 license, which grants similar rights, but has some differences from MIT. Flash player (`resources/extensions`) and GoAnimate's original assets (`resources/static`) are proprietary and do not grant you these rights, but if they did, this project wouldn't need to exist
-
-## Credits
-These are unaffiliated people that they haven't directly done anything for the project but still deserve credit for their things. Kinda like a shoutout but in a project's readme. ***Please do not contact them about Wrapper offline, except [octanuary](https://github.com/octanuary)***
-
-Name | Contribution
----- | ----
-[octanuary](https://github.com/octanuary) | The current owner of Wrapper offline
-[Vyond](https://vyond.com) | Creators of the themes we love
-[VisualPlugin](https://github.com/Windows81) | GoAnimate Wrapper, character dump
-[It'sJay](https://github.com/PoleyMagik) | Asset store archive, client modifications
 
 No members of the original GoAnimate Wrapper team are officially working on Wrapper offline, even if they have contributed. Some members of the original team have asked to not be given credit, and they have been removed
