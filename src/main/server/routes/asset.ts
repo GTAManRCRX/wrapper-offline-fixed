@@ -275,14 +275,16 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 					}
 					if (ext == "webp" || ext == "tif" || ext == "avif") {
 						const image = await Jimp.read(filepath);
+        					const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
+        					stream = Readable.from(buffer);
 						var finalExt = "png";
 					} else {
-						const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
-        				stream = Readable.from(buffer);
+						stream = fs.createReadStream(filepath);
+						var finalExt = ext;
 					}
 					if (stream instanceof fs.ReadStream) {
         					stream.pause();
-    				}
+    					}
 					info.id = await AssetModel.save(stream, ext, info);
 				}
 				break;
