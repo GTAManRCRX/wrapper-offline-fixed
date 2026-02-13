@@ -41,7 +41,7 @@ This version is a complete overhaul of the original 2.1.0 source code. Over 40+ 
 This version is built for longevity and stability. It runs on Windows 7 natively, consumes fewer resources, and fixes the most annoying bugs that occured in the previous Wrapper offline versions
 
 ### Downloads / Installation
-To install my forked version of Wrapper offline, you need to download it through the [releases page](https://github.com/GTAManRCRX/wrapper-offline-modded/releases/)
+To install Wrapper offline, you need to download it through the [releases page](https://github.com/GTAManRCRX/wrapper-offline-fixed/releases/)
 
 ### Updates and support
 For support, the first thing you should do is to [read through the Wrapper offline wiki](https://github.com/wrapper-offline/wrapper-offline/wiki) as it most likely has what you want to know    
