@@ -10,13 +10,13 @@ import fileUtil from "../utils/fileUtil";
 import fs from "fs";
 import httpz from "@octanuary/httpz";
 import MovieModel, { Starter } from "../models/movie";
-import mp3Duration from "mp3-duration";
 import path from "path";
 import { promisify } from "util";
 import Jimp from "jimp";
 import { randomBytes } from "crypto";
 import { Readable } from "stream";
 
+const asyncFfprobe = promisify(ffprobe); 
 const getAssetPath = (ext: string) => path.join(Directories.asset, `${randomBytes(16).toString("hex")}.${ext}`);
 
 Ffmpeg.setFfmpegPath(ffmpegPath);
@@ -183,7 +183,6 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 	if (typeof ext === "undefined") {
 		return res.status(400).json({msg:"File type could not be determined."});
 	}
-
 	let info:Partial<Asset> = {
 		type: req.body.type,
 		subtype: req.body.subtype,
@@ -229,10 +228,10 @@ group.route("POST", "/api/asset/upload", async (req, res) => {
 					}, 1.2e+6);
 					stream.on("end", resolve).pipe(writeStream)
 				});
-				info.duration = await mp3Duration(temppath) * 1e3;
+				const ffdata = await asyncFfprobe(temppath) as FfprobeData;
+				info.duration = Math.round(ffdata.format.duration * 1e3);
 				info.id = await AssetModel.save(temppath, "mp3", info);
-				fs.unlinkSync(temppath);
-				break;
+				if (fs.existsSync(temppath)) fs.unlinkSync(temppath);
 			}
 			case "prop": {
 				if (info.subtype == "video") {
