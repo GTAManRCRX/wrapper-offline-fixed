@@ -294,10 +294,10 @@
 	<effect id="fade_in.swf" type="ANIME" resize="false" move="false" name="Fade in" enable="N" is_premium="N" aid="1388" money="0" sharing="0" display_order="1388"/>
 	<effect id="fade_out.swf" type="ANIME" resize="false" move="false" name="Fade out" enable="N" is_premium="N" aid="1389" money="0" sharing="0" display_order="1389"/>
 	<effect id="flash_light01.swf" type="ANIME" resize="false" move="false" name="Flash light" enable="N" is_premium="N" aid="1390" money="0" sharing="0" display_order="1390"/>
-	<effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="Gnn news" enable="N" is_premium="N" aid="1391" money="0" sharing="0" display_order="1391"/>
+	<effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="GNN news" enable="N" is_premium="N" aid="1391" money="0" sharing="0" display_order="1391"/>
 	<effect id="green_screen.swf" type="ANIME" resize="false" move="false" name="Green screen" enable="N" is_premium="N" aid="1392" money="0" sharing="0" display_order="1392"/>
 	<effect id="ppl01.swf" type="ANIME" resize="false" move="false" name="People" enable="N" is_premium="N" aid="1393" money="0" sharing="0" display_order="1393"/>
 	<effect id="bomb.swf" type="ANIME" resize="false" move="false" name="Bomb" enable="N" is_premium="N" aid="1394" money="0" sharing="0" display_order="1394"/>
 	<effect id="water_flood.swf" type="ANIME" resize="false" move="false" name="Water flood" enable="N" is_premium="N" aid="1395" money="0" sharing="0" display_order="1395"/>
-	<effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="Dv screen" enable="N" is_premium="N" aid="1396" money="0" sharing="0" display_order="1396"/>
+	<effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="DV screen" enable="N" is_premium="N" aid="1396" money="0" sharing="0" display_order="1396"/>
 </theme>

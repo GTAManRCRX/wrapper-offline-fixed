@@ -201,7 +201,7 @@
 	<effect id="fade_in.swf" type="ANIME" resize="false" move="false" name="Fade in" enable="N" is_premium="N" aid="3047" money="0" sharing="0"/>
 	<effect id="fade_out.swf" type="ANIME" resize="false" move="false" name="Fade out" enable="N" is_premium="N" aid="3048" money="0" sharing="0"/>
 	<effect id="flash_light01.swf" type="ANIME" resize="false" move="false" name="Flash light" enable="N" is_premium="N" aid="3049" money="0" sharing="0"/>
-	<effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="Gnn news" enable="N" is_premium="N" aid="3050" money="0" sharing="0"/>
+	<effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="GNN news" enable="N" is_premium="N" aid="3050" money="0" sharing="0"/>
 	<effect id="green_screen.swf" type="ANIME" resize="false" move="false" name="Green screen" enable="N" is_premium="N" aid="3051" money="0" sharing="0"/>
 	<effect id="ppl01.swf" type="ANIME" resize="false" move="false" name="People" enable="N" is_premium="N" aid="3052" money="0" sharing="0"/>
 	<effect id="bomb.swf" type="ANIME" resize="false" move="false" name="Bomb" enable="N" is_premium="N" aid="3053" money="0" sharing="0"/>
@@ -222,5 +222,5 @@
 	<effect id="snow02.swf" type="ANIME" resize="false" move="false" name="Snow02" enable="N" is_premium="N" aid="3036" money="0" sharing="0"/>
 	<effect id="old_film_effect.swf" type="ANIME" resize="false" move="false" name="Old film" enable="N" is_premium="N" aid="3037" money="0" sharing="0"/>
 	<effect id="hearts.swf" type="ANIME" resize="false" move="false" name="Heart" enable="N" is_premium="N" aid="3038" money="0" sharing="0"/>
-	<effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="Dv screen" enable="N" is_premium="N" aid="3055" money="0" sharing="0"/>
+	<effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="DV screen" enable="N" is_premium="N" aid="3055" money="0" sharing="0"/>
 </theme>

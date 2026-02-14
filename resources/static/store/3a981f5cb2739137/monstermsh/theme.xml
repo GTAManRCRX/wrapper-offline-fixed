@@ -275,7 +275,7 @@
 	<effect id="fade_in.swf" type="ANIME" resize="false" move="false" name="Fade in" enable="N" is_premium="N" aid="3632" money="0" sharing="0" display_order="0"/>
 	<effect id="fade_out.swf" type="ANIME" resize="false" move="false" name="Fade out" enable="N" is_premium="N" aid="3633" money="0" sharing="0" display_order="0"/>
 	<effect id="flash_light01.swf" type="ANIME" resize="false" move="false" name="Flash light" enable="N" is_premium="N" aid="3634" money="0" sharing="0" display_order="0"/>
-	<effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="Gnn news" enable="N" is_premium="N" aid="3635" money="0" sharing="0" display_order="0"/>
+	<effect id="gnn_news.swf" type="ANIME" resize="false" move="false" name="GNN news" enable="N" is_premium="N" aid="3635" money="0" sharing="0" display_order="0"/>
 	<effect id="green_screen.swf" type="ANIME" resize="false" move="false" name="Green screen" enable="N" is_premium="N" aid="3636" money="0" sharing="0" display_order="0"/>
 	<effect id="ppl01.swf" type="ANIME" resize="false" move="false" name="People" enable="N" is_premium="N" aid="3637" money="0" sharing="0" display_order="0"/>
 	<effect id="bomb.swf" type="ANIME" resize="false" move="false" name="Bomb" enable="N" is_premium="N" aid="3638" money="0" sharing="0" display_order="0"/>
@@ -296,5 +296,5 @@
 	<effect id="snow02.swf" type="ANIME" resize="false" move="false" name="Snow02" enable="N" is_premium="N" aid="3621" money="0" sharing="0" display_order="0"/>
 	<effect id="old_film_effect.swf" type="ANIME" resize="false" move="false" name="Old film" enable="N" is_premium="N" aid="3622" money="0" sharing="0" display_order="0"/>
 	<effect id="hearts.swf" type="ANIME" resize="false" move="false" name="Heart" enable="N" is_premium="N" aid="3623" money="0" sharing="0" display_order="0"/>
-	<effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="Dv screen" enable="N" is_premium="N" aid="3640" money="0" sharing="0" display_order="0"/>
+	<effect id="DV_screen.swf" type="ANIME" resize="false" move="false" name="DV screen" enable="N" is_premium="N" aid="3640" money="0" sharing="0" display_order="0"/>
 </theme>
