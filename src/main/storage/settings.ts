@@ -24,7 +24,7 @@ class Settings {
 			try {
 				this.refresh();
 			} catch (e) {
-				throw new Error("Something is very wrong. You may be in a read-only system oradmin folder.");
+				throw new Error("Something is very wrong. You may be in a read-only system or admin folder");
 			}
 		}
 		this.refresh();
