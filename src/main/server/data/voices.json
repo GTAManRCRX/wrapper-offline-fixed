@@ -2358,7 +2358,7 @@
 			"gender": "M",
 			"source": "cereproc",
 			"arg": "William",
-			"desc": "William"
+			"desc": "William (Cereproc)"
 		},
 		"ylva1": {
 			"country": "SE",
@@ -2510,7 +2510,7 @@
 			"gender": "M",
 			"source": "cepstral",
 			"arg": "William",
-			"desc": "William"
+			"desc": "William (Cepstral)"
 		},
 		"Whispery": {
 			"country": "US",
@@ -4510,7 +4510,7 @@
 			"desc": "Sangeeta"
 		},
 		"oc_moira": {
-			"country": "IE",
+			"country": "US",
 			"language": "en",
 			"gender": "F",
 			"arg": [4, 1, 8],
@@ -4518,7 +4518,7 @@
 			"desc": "Moira"
 		},
 		"oc_tessa": {
-			"country": "ZA",
+			"country": "US",
 			"language": "en",
 			"gender": "F",
 			"arg": [4, 1, 13],
@@ -8359,13 +8359,13 @@
 			"desc": "Andika"
 		},
 		"sean": {
-			"country": "IE",
+			"country": "US",
 			"language": "en",
 			"gender": "M",
             "source": "onecore",
 			"arg": "Microsoft Irish English (Sean)",
 			"lang": "en-IE",
-			"desc": "Sean"
+			"desc": "Sean (Onecore)"
 		},
 		"cosimo": {
 			"country": "IT",
@@ -8761,7 +8761,7 @@
             "source": "cobaltspeech",
 			"arg": "LTTS_8797",
 			"lang": "en_US",
-			"desc": "Sean"
+			"desc": "Sean (Cobalt)"
 		},
 		"LTTS_2300": {
 			"country": "US",
