@@ -338,6 +338,17 @@ export default function processVoice(
 					req.end(body);
 					break;
 				}
+				case "polly+wavenet": {
+					const q = new URLSearchParams({
+						voice: voice.arg,
+						text: text,
+					}).toString();
+
+					https
+						.get(`https://api.textreader.pro/tts?${q}`, resolve)
+						.on("error", rej);
+					break;
+				}
 				case "readloud": {
 					const body = new URLSearchParams({
 						but1: text,
