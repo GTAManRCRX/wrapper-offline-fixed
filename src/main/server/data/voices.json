@@ -4370,24 +4370,8 @@
 			"language": "es",
 			"gender": "F",
 			"source": "neospeechold",
-			"arg": "usspanishfemale",
+			"arg": "spanishfemale",
 			"desc": "Violeta (iSpeech)"
-		},
- 		"oc_lily": {
-			"country": "CN",
-			"language": "zh",
-			"gender": "F",
-			"source": "neospeechold",
-			"arg": "chchinesefemale",
-			"desc": "Lily"
-		},
- 		"oc_wang": {
-			"country": "CN",
-			"language": "zh",
-			"gender": "M",
-			"source": "neospeechold",
-			"arg": "chchinesemale",
-			"desc": "Wang"
 		},
  		"showold": {
 			"country": "JP",
@@ -5021,39 +5005,71 @@
 			"source": "vocalware",
 			"desc": "Reiner"
 		},
-		"brenda": {
-			"country": "US",
-			"language": "en",
+		"google_amina": {
+			"country": "SA",
+			"language": "ar",
 			"gender": "F",
-			"arg": [7, 1, 7],
+			"arg": [7, 27, 1],
 			"source": "vocalware",
-			"desc": "Brenda"
+			"desc": "Amina"
 		},
-		"olivia2": {
-			"country": "GB",
-			"language": "en",
+		"google_jamal": {
+			"country": "SA",
+			"language": "ar",
+			"gender": "M",
+			"arg": [7, 27, 2],
+			"source": "vocalware",
+			"desc": "Jamal"
+		},	
+		"google_chai_ling": {
+			"country": "CN",
+			"language": "zh",
 			"gender": "F",
-			"arg": [7, 1, 1],
+			"arg": [7, 10, 1],
 			"source": "vocalware",
-			"desc": "Olivia (Vocalware)"
+			"desc": "Chia-Ling (Taiwan)"
 		},
-   		"yan": {
-			"country": "HK",
+		"google_chai_hao": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"arg": [7, 10, 2],
+			"source": "vocalware",
+			"desc": "Chia-Hao (Taiwan)"
+		},
+		"google_yan": {
+			"country": "CN",
 			"language": "zh",
 			"gender": "F",
 			"arg": [7, 10, 3],
 			"source": "vocalware",
-			"desc": "Yan"
+			"desc": "Yan (Cantonese)"
 		},
-   		"chan": {
-			"country": "HK",
+		"google_chan": {
+			"country": "CN",
 			"language": "zh",
 			"gender": "M",
 			"arg": [7, 10, 4],
 			"source": "vocalware",
-			"desc": "Chan"
+			"desc": "Chan (Cantonese)"
 		},
-		"erik2": {
+		"google_pavla": {
+			"country": "CZ",
+			"language": "cs",
+			"gender": "F",
+			"arg": [7, 18, 1],
+			"source": "vocalware",
+			"desc": "Pavla"
+		},
+        "google_dagny": {
+			"country": "DK",
+			"language": "da",
+			"gender": "F",
+			"arg": [7, 19, 1],
+			"source": "vocalware",
+			"desc": "Dagny"
+		},
+        "google_erik": {
 			"country": "DK",
 			"language": "da",
 			"gender": "M",
@@ -5061,7 +5077,103 @@
 			"source": "vocalware",
 			"desc": "Erik"
 		},
-		"datu": {
+ 		"google_famke": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"arg": [7, 11, 1],
+			"source": "vocalware",
+			"desc": "Famke"
+		},
+ 		"google_dirk": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "M",
+			"arg": [7, 11, 2],
+			"source": "vocalware",
+			"desc": "Dirk"
+		},
+ 		"google_olivia": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"arg": [7, 1, 1],
+			"source": "vocalware",
+			"desc": "Olivia (Google)"
+		},
+ 		"google_oliver": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"arg": [7, 1, 2],
+			"source": "vocalware",
+			"desc": "Oliver (Google)"
+		},
+ 		"google_matilda": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"arg": [7, 1, 3],
+			"source": "vocalware",
+			"desc": "Matilda"
+		},
+ 		"google_jackson": {
+			"country": "AU",
+			"language": "en",
+			"gender": "M",
+			"arg": [7, 1, 4],
+			"source": "vocalware",
+			"desc": "Jackson (Google)"
+		},
+ 		"google_lakshmi": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"arg": [7, 1, 5],
+			"source": "vocalware",
+			"desc": "Lakshmi"
+		},
+ 		"google_prashant": {
+			"country": "IN",
+			"language": "en",
+			"gender": "M",
+			"arg": [7, 1, 6],
+			"source": "vocalware",
+			"desc": "Prashant"
+		},
+ 		"google_brenda": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"arg": [7, 1, 7],
+			"source": "vocalware",
+			"desc": "Brenda"
+		},
+ 		"google_warren": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"arg": [7, 1, 8],
+			"source": "vocalware",
+			"desc": "Warren"
+		},
+ 		"google_gilbert": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"arg": [7, 1, 9],
+			"source": "vocalware",
+			"desc": "Gilbert"
+		},
+ 		"google_mayumi": {
+			"country": "PH",
+			"language": "fil",
+			"gender": "F",
+			"arg": [7, 32, 1],
+			"source": "vocalware",
+			"desc": "Mayumi"
+		},
+ 		"google_datu": {
 			"country": "PH",
 			"language": "fil",
 			"gender": "M",
@@ -5069,15 +5181,95 @@
 			"source": "vocalware",
 			"desc": "Datu"
 		},
-  		"giorgos": {
+ 		"google_sanna": {
+			"country": "FI",
+			"language": "fi",
+			"gender": "F",
+			"arg": [7, 23, 1],
+			"source": "vocalware",
+			"desc": "Sanna (Google)"
+		},
+ 		"google_beatrice": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+			"arg": [7, 4, 1],
+			"source": "vocalware",
+			"desc": "Beatrice"
+		},
+ 		"google_antoine": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"arg": [7, 4, 2],
+			"source": "vocalware",
+			"desc": "Antoine (Google)"
+		},
+ 		"google_leonie": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"arg": [7, 4, 3],
+			"source": "vocalware",
+			"desc": "Leonie"
+		},
+ 		"google_gaspard": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "M",
+			"arg": [7, 4, 4],
+			"source": "vocalware",
+			"desc": "Gaspard"
+		},
+ 		"google_hilda": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+			"arg": [7, 3, 1],
+			"source": "vocalware",
+			"desc": "Hilda"
+		},
+ 		"google_heinz": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"arg": [7, 3, 2],
+			"source": "vocalware",
+			"desc": "Heinz"
+		},
+ 		"google_eleni": {
 			"country": "GR",
 			"language": "el",
-			"gender": "M",
-			"arg": [7, 8, 2],
+			"gender": "F",
+			"arg": [7, 8, 1],
 			"source": "vocalware",
-			"desc": "Giorgos"
+			"desc": "Eleni"
 		},
-        	"putri": {
+ 		"google_swathi": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "F",
+			"arg": [7, 24, 1],
+			"source": "vocalware",
+			"desc": "Swathi"
+		},
+ 		"google_karan": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "M",
+			"arg": [7, 24, 2],
+			"source": "vocalware",
+			"desc": "Karan"
+		},
+ 		"google_flora": {
+			"country": "HU",
+			"language": "hu",
+			"gender": "F",
+			"arg": [7, 29, 1],
+			"source": "vocalware",
+			"desc": "Flora"
+		},
+ 		"google_putri": {
 			"country": "ID",
 			"language": "id",
 			"gender": "F",
@@ -5085,7 +5277,63 @@
 			"source": "vocalware",
 			"desc": "Putri"
 		},
-		"danota": {
+ 		"google_bintang": {
+			"country": "ID",
+			"language": "id",
+			"gender": "M",
+			"arg": [7, 28, 2],
+			"source": "vocalware",
+			"desc": "Bintang"
+		},
+ 		"google_bianca": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+			"arg": [7, 7, 1],
+			"source": "vocalware",
+			"desc": "Bianca (Google)"
+		},
+ 		"google_alessandro": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+			"arg": [7, 7, 2],
+			"source": "vocalware",
+			"desc": "Alessandro"
+		},
+ 		"google_himari": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"arg": [7, 12, 1],
+			"source": "vocalware",
+			"desc": "Himari"
+		},
+ 		"google_kaito": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "M",
+			"arg": [7, 12, 2],
+			"source": "vocalware",
+			"desc": "Kaito"
+		},
+ 		"google_dagrun": {
+			"country": "no",
+			"language": "no",
+			"gender": "F",
+			"arg": [7, 20, 1],
+			"source": "vocalware",
+			"desc": "Dagrun"
+		},
+ 		"google_lars": {
+			"country": "no",
+			"language": "no",
+			"gender": "M",
+			"arg": [7, 20, 2],
+			"source": "vocalware",
+			"desc": "Lars"
+		},
+ 		"google_danota": {
 			"country": "PL",
 			"language": "pl",
 			"gender": "F",
@@ -5093,21 +5341,669 @@
 			"source": "vocalware",
 			"desc": "Danota"
 		},
- 		"antonio2": {
+ 		"google_wojciech": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "M",
+			"arg": [7, 14, 2],
+			"source": "vocalware",
+			"desc": "Wojciech"
+		},
+ 		"google_ana": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"arg": [7, 6, 1],
+			"source": "vocalware",
+			"desc": "Ana"
+		},
+ 		"google_antonio": {
 			"country": "BR",
 			"language": "pt",
 			"gender": "M",
 			"arg": [7, 6, 2],
 			"source": "vocalware",
-			"desc": "Antonio"
+			"desc": "Antonio (Google)"
 		},
-  		"gustav": {
+ 		"google_leonor": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "F",
+			"arg": [7, 6, 3],
+			"source": "vocalware",
+			"desc": "Leonor"
+		},
+ 		"google_tiago": {
+			"country": "PT",
+			"language": "pt",
+			"gender": "M",
+			"arg": [7, 6, 4],
+			"source": "vocalware",
+			"desc": "Tiago"
+		},
+ 		"google_eliska": {
+			"country": "SK",
+			"language": "sk",
+			"gender": "F",
+			"arg": [7, 37, 1],
+			"source": "vocalware",
+			"desc": "Eliska"
+		},
+ 		"google_astrid": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"arg": [7, 9, 1],
+			"source": "vocalware",
+			"desc": "Astrid (Google)"
+		},
+ 		"google_gustav": {
 			"country": "SE",
 			"language": "sv",
 			"gender": "M",
 			"arg": [7, 9, 2],
 			"source": "vocalware",
 			"desc": "Gustav"
+		},
+ 		"google_zehra": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"arg": [7, 16, 1],
+			"source": "vocalware",
+			"desc": "Zehra"
+		},
+ 		"google_eymen": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "M",
+			"arg": [7, 16, 2],
+			"source": "vocalware",
+			"desc": "Eymen"
+		},
+ 		"google_vira": {
+			"country": "UA",
+			"language": "uk",
+			"gender": "F",
+			"arg": [7, 40, 1],
+			"source": "vocalware",
+			"desc": "Vira"
+		},
+ 		"google_nguyet": {
+			"country": "VN",
+			"language": "vi",
+			"gender": "F",
+			"arg": [7, 41, 1],
+			"source": "vocalware",
+			"desc": "Nguyet"
+		},
+ 		"google_phuong": {
+			"country": "VN",
+			"language": "vi",
+			"gender": "M",
+			"arg": [7, 41, 2],
+			"source": "vocalware",
+			"desc": "Phuong"
+		},
+ 		"google_ernesto": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "es-ES-Wavenet-E",
+			"desc": "Ernesto"
+		},
+ 		"google_camila": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "es-ES-Wavenet-F",
+			"desc": "Camila"
+		},
+ 		"google_jose": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "es-ES-Wavenet-G",
+			"desc": "Jose"
+		},
+ 		"google_pilar": {
+			"country": "ES",
+			"language": "es",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "es-ES-Wavenet-H",
+			"desc": "Pilar"
+		},	
+ 		"google_valentina": {
+			"country": "US",
+			"language": "es",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "es-US-Wavenet-A",
+			"desc": "Valentina"
+		},
+ 		"google_luis": {
+			"country": "US",
+			"language": "es",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "es-US-Wavenet-B",
+			"desc": "Luis"
+		},	
+ 		"google_martin": {
+			"country": "US",
+			"language": "es",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "es-US-Wavenet-C",
+			"desc": "Martin"
+		},		
+ 		"google_heosu": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ko-KR-Wavenet-A",
+			"desc": "Heosu"
+		},		
+ 		"google_daeshim": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "ko-KR-Wavenet-B",
+			"desc": "Daeshim"
+		},		
+ 		"google_sujin": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ko-KR-Wavenet-C",
+			"desc": "Sujin"
+		},		
+ 		"google_minjun": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "ko-KR-Wavenet-D",
+			"desc": "Minjun"
+		},
+ 		"google_elsa": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "sv-SE-Wavenet-B",
+			"desc": "Elsa"
+		},
+ 		"google_johan": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "sv-SE-Wavenet-C",
+			"desc": "Johan"
+		},
+ 		"google_hedvig": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "sv-SE-Wavenet-D",
+			"desc": "Hedvig"
+		},
+ 		"google_nils": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "sv-SE-Wavenet-E",
+			"desc": "Nils"
+		},
+ 		"google_ingrid": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "sv-SE-Wavenet-F",
+			"desc": "Ingrid"
+		},
+ 		"google_carter": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-A",
+			"desc": "Carter"
+		},
+ 		"google_paul": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-B",
+			"desc": "Paul (Google)"
+		},
+ 		"google_evelyn": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-C",
+			"desc": "Evelyn"
+		},
+ 		"google_liam": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-D",
+			"desc": "Liam (Google)"
+		},
+ 		"google_jasmine": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-E",
+			"desc": "Jasmine"
+		},
+ 		"google_madison": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-F",
+			"desc": "Madison"
+		},
+ 		"google_vanessa": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-G",
+			"desc": "Vanessa"
+		},
+ 		"google_audrey": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-H",
+			"desc": "Audrey"
+		},
+ 		"google_mark": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-US-Wavenet-J",
+			"desc": "Mark"
+		},
+ 		"google_layla": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-GB-Wavenet-A",
+			"desc": "Layla"
+		},
+ 		"google_scarlett": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-GB-Wavenet-C",
+			"desc": "Scarlett"
+		},
+ 		"google_ali": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-GB-Wavenet-D",
+			"desc": "Ali"
+		},
+ 		"google_bella": {
+			"country": "GB",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-GB-Wavenet-N",
+			"desc": "Bella"
+		},
+ 		"google_courtney": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-AU-Wavenet-C",
+			"desc": "Courtney"
+		},
+ 		"google_jayden": {
+			"country": "AU",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-AU-Wavenet-D",
+			"desc": "Jayden"
+		},
+ 		"google_camille": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "fr-CA-Wavenet-C",
+			"desc": "Camille"
+		},
+ 		"google_jacques": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "fr-CA-Wavenet-D",
+			"desc": "Jacques"
+		},		
+ 		"google_masha": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ru-RU-Wavenet-A",
+			"desc": "Masha"
+		},
+ 		"google_ilya": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "ru-RU-Wavenet-B",
+			"desc": "Ilya"
+		},	
+ 		"google_alena": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ru-RU-Wavenet-C",
+			"desc": "Alena"
+		},
+ 		"google_petr": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "ru-RU-Wavenet-D",
+			"desc": "Petr"
+		},
+ 		"google_katerina": {
+			"country": "RU",
+			"language": "ru",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ru-RU-Wavenet-E",
+			"desc": "Katerina"
+		},
+ 		"google_miray": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "tr-TR-Wavenet-C",
+			"desc": "Miray"
+		},
+ 		"google_elif": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "tr-TR-Wavenet-D",
+			"desc": "Elif"
+		},
+ 		"google_enes": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "tr-TR-Wavenet-E",
+			"desc": "Enes"
+		},
+ 		"google_ahmad": {
+			"country": "XA",
+			"language": "ar",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "ar-XA-Wavenet-C",
+			"desc": "Ahmad"
+		},
+ 		"google_aisha": {
+			"country": "XA",
+			"language": "ar",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ar-XA-Wavenet-D",
+			"desc": "Aisha"
+		},
+ 		"google_sundar": {
+			"country": "IN",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-IN-Wavenet-B",
+			"desc": "Sundar"
+		},
+ 		"google_juhi": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-IN-Wavenet-D",
+			"desc": "Juhi"
+		},
+ 		"google_riya": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "en-IN-Wavenet-E",
+			"desc": "Riya"
+		},
+ 		"google_satya": {
+			"country": "IN",
+			"language": "en",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "en-IN-Wavenet-F",
+			"desc": "Satya"
+		},
+ 		"google_aadhav": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "hi-IN-Wavenet-C",
+			"desc": "Aadhav"
+		},
+ 		"google_vanya": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "hi-IN-Wavenet-D",
+			"desc": "Vanya"
+		},
+ 		"google_tanvi": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "hi-IN-Wavenet-E",
+			"desc": "Tanvi"
+		},
+ 		"google_ishaan": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "hi-IN-Wavenet-F",
+			"desc": "Ishaan"
+		},
+ 		"google_budi": {
+			"country": "ID",
+			"language": "id",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "id-ID-Wavenet-B",
+			"desc": "Budi"
+		},
+ 		"google_anisa": {
+			"country": "ID",
+			"language": "id",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "id-ID-Wavenet-D",
+			"desc": "Anisa"
+		},
+ 		"google_eiko": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ja-JP-Wavenet-B",
+			"desc": "Eiko"
+		},
+ 		"google_eichi": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "ja-JP-Wavenet-D",
+			"desc": "Eichi"
+		},
+ 		"google_lina": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "cmn-CN-Wavenet-A",
+			"desc": "Li Na"
+		},
+ 		"google_wang": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "cmn-CN-Wavenet-B",
+			"desc": "Wang"
+		},
+ 		"google_bai": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "cmn-CN-Wavenet-C",
+			"desc": "Bai"
+		},
+ 		"google_mingli": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "cmn-CN-Wavenet-D",
+			"desc": "Mingli"
+		},
+ 		"google_xin-de": {
+			"country": "CN",
+			"language": "zh",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "cmn-TW-Wavenet-C",
+			"desc": "Xin-De (Taiwan)"
+		},
+ 		"google_linh": {
+			"country": "VN",
+			"language": "vi",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "vi-VN-Wavenet-A",
+			"desc": "Linh"
+		},
+ 		"google_viet": {
+			"country": "VN",
+			"language": "vi",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "vi-VN-Wavenet-D",
+			"desc": "Viet"
+		},
+ 		"google_shagufta": {
+			"country": "IN",
+			"language": "ur",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ur-IN-Wavenet-A",
+			"desc": "Shagufta"
+		},
+ 		"google_hamza": {
+			"country": "IN",
+			"language": "ur",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "ur-IN-Wavenet-B",
+			"desc": "Hamza"
+		},
+ 		"google_chesa": {
+			"country": "PH",
+			"language": "fil",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "fil-PH-Wavenet-B",
+			"desc": "Chesa"
+		},
+ 		"google_bayani": {
+			"country": "PH",
+			"language": "fil",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "fil-PH-Wavenet-C",
+			"desc": "Bayani"
+		},
+ 		"google_alice": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "pt-BR-Wavenet-C",
+			"desc": "Alice"
+		},
+ 		"google_juliana": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "pt-BR-Wavenet-D",
+			"desc": "Juliana"
+		},
+ 		"google_renato": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "M",
+			"source": "polly+wavenet",
+			"arg": "pt-BR-Wavenet-E",
+			"desc": "Renato"
+		},
+ 		"google_andreea": {
+			"country": "RO",
+			"language": "ro",
+			"gender": "F",
+			"source": "polly+wavenet",
+			"arg": "ro-RO-Wavenet-B",
+			"desc": "Andreea"
 		},
 		"af": {
 			"country": "ZA",
@@ -5352,10 +6248,10 @@
  		"it-IT": {
 			"country": "IT",
 			"language": "it",
-			"gender": "F",
+			"gender": "M",
 			"source": "googletranslate",
 			"arg": "it-IT",
-			"desc": "Italian female"
+			"desc": "Italian male"
 		},    
  		"ja-JP": {
 			"country": "JP",
@@ -5718,16 +6614,16 @@
 			"desc": "Chao"
 		},
  		"misakisvox": {
-			"country": "TW",
-			"language": "zh",
+			"country": "JP",
+			"language": "ja",
 			"gender": "F",
 			"source": "svox",
 			"arg": "jpjapanesefemale",
 			"desc": "Misaki"
 		},
  		"sang-mi": {
-			"country": "TW",
-			"language": "zh",
+			"country": "KR",
+			"language": "ko",
 			"gender": "F",
 			"source": "svox",
 			"arg": "krkoreanfemale",
