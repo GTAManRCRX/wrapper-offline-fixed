@@ -7,10 +7,11 @@ import { join } from "path";
 import { rmdirSync, existsSync } from "fs";
 import settings from "./storage/settings";
 import { startAll } from "./server/index";
+import { writeFileSync, existsSync } from "fs";
+import { join } from "path";
 
 const customTempPath = join(__dirname, "temp");
 app.setPath("userData", customTempPath);
-
 (() => {
 	try {
 		const appName = app.getName(); 
@@ -27,6 +28,22 @@ app.setPath("userData", customTempPath);
 const IS_DEV = app.commandLine.getSwitchValue("dev").length > 0;
 
 startAll();
+
+const PRELOAD_SOURCE = `const { contextBridge, ipcRenderer } = require("electron");
+contextBridge.exposeInMainWorld("appWindow", {
+	goHome: () => ipcRenderer.send("go-home"),
+	openDiscord: () => ipcRenderer.send("open-discord"),
+	openFAQ: () => ipcRenderer.send("open-faq"),
+	openGitHub: () => ipcRenderer.send("open-github"),
+	openDataFolder: () => ipcRenderer.send("open-data-folder"),
+});`;
+const getPreloadPath = () => {
+    const localPath = join(__dirname, "preload.js");
+    if (existsSync(localPath)) return localPath;
+    return join(__dirname, "preload.js");
+};
+const preloadPath = join(__dirname, "preload.js"); 
+writeFileSync(preloadPath, PRELOAD_SOURCE, "utf8");
 
 if (settings.saveLogFiles) {
 	const filePath = join(Directories.log, new Date().valueOf() + ".txt");
@@ -86,7 +103,7 @@ const createWindow = () => {
 		show: false,
 		icon: iconPath,
 		webPreferences: {
-			preload: join(__dirname, "preload.js"),
+			preload: getPreloadPath(),
 			plugins: true,
 			contextIsolation: true
 		}
