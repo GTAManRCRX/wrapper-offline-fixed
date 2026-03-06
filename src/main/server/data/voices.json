@@ -12859,6 +12859,326 @@
 			"arg": "zh-TW-HsiaoYuNeural",
 			"desc": "HsiaoYu"
 		},
+		"hala": {
+			"country": "AE",
+			"language": "ar",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Hala",
+			"desc": "Hala"
+		},
+		"zayd": {
+			"country": "AE",
+			"language": "ar",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Zayd",
+			"desc": "Zayd"
+		},
+		"lisa": {
+			"country": "BE",
+			"language": "nl",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Lisa",
+			"desc": "Lisa"
+		},
+		"arlet": {
+			"country": "ES",
+			"language": "ca",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Arlet",
+			"desc": "Arlet"
+		},
+		"jitka": {
+			"country": "CZ",
+			"language": "cs",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Jitka",
+			"desc": "Jitka"
+		},
+		"hiujin": {
+			"country": "HK",
+			"language": "zh",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Hiujin",
+			"desc": "Hiujin"
+		},
+		"sofie": {
+			"country": "DK",
+			"language": "da",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Sofie",
+			"desc": "Sofie"
+		},
+		"laura": {
+			"country": "NL",
+			"language": "nl",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Laura",
+			"desc": "Laura"
+		},
+		"olivia4": {
+			"country": "AU",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Olivia",
+			"desc": "Olivia (PO)"
+		},
+		"arthur1": {
+			"country": "GB",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Arthur",
+			"desc": "Arthur (PO)"
+		},
+		"kajal": {
+			"country": "IN",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Kajal",
+			"desc": "Kajal"
+		},
+		"kajal1": {
+			"country": "IN",
+			"language": "hi",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Kajal",
+			"desc": "Kajal"
+		},
+		"niamh": {
+			"country": "IE",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Niamh",
+			"desc": "Niamh"
+		},
+		"aria1": {
+			"country": "NZ",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Aria",
+			"desc": "Aria (PO)"
+		},
+		"jasmine": {
+			"country": "SG",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Jasmine",
+			"desc": "Jasmine (PO)"
+		},
+		"ayanda": {
+			"country": "ZA",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Ayanda",
+			"desc": "Ayanda"
+		},
+		"danielle": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Danielle",
+			"desc": "Danielle"
+		},
+		"gregory1": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Gregory",
+			"desc": "Gregory (PO)"
+		},
+		"kevin1": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Kevin",
+			"desc": "Kevin (PO)"
+		},
+		"ruth": {
+			"country": "US",
+			"language": "en",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Ruth",
+			"desc": "Ruth"
+		},
+		"stephen": {
+			"country": "US",
+			"language": "en",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Stephen",
+			"desc": "Stephen"
+		},
+		"suvi": {
+			"country": "FI",
+			"language": "fi",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Suvi",
+			"desc": "Suvi"
+		},
+		"remi": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Remi",
+			"desc": "Rémi"
+		},
+		"isabelle": {
+			"country": "BE",
+			"language": "fr",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Isabelle",
+			"desc": "Isabelle"
+		},
+		"gabrielle": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Gabrielle",
+			"desc": "Gabrielle"
+		},
+		"liam1": {
+			"country": "CA",
+			"language": "fr",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Liam",
+			"desc": "Liam"
+		},
+		"daniel1": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Daniel",
+			"desc": "Daniel"
+		},
+		"hannah": {
+			"country": "AT",
+			"language": "de",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Hannah",
+			"desc": "Hannah"
+		},
+		"sabrina": {
+			"country": "CH",
+			"language": "de",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Sabrina",
+			"desc": "Sabrina"
+		},
+		"adriano": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Adriano",
+			"desc": "Adriano"
+		},
+		"kazuha": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Kazuha",
+			"desc": "Kazuha"
+		},
+		"tomoko": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Tomoko",
+			"desc": "Tomoko"
+		},
+		"ida1": {
+			"country": "no",
+			"language": "no",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Ida",
+			"desc": "Ida (PO)"
+		},
+		"ola": {
+			"country": "PL",
+			"language": "pl",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Ola",
+			"desc": "Ola"
+		},
+		"thiago": {
+			"country": "BR",
+			"language": "pt",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Thiago",
+			"desc": "Thiago"
+		},
+		"sergio1": {
+			"country": "ES",
+			"language": "es",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Sergio",
+			"desc": "Sergio"
+		},
+		"andres": {
+			"country": "MX",
+			"language": "es",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Andres",
+			"desc": "Andrés"
+		},
+		"pedro": {
+			"country": "US",
+			"language": "es",
+			"gender": "M",
+			"source": "polly",
+			"arg": "Pedro",
+			"desc": "Pedro"
+		},
+		"elin1": {
+			"country": "SE",
+			"language": "sv",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Elin",
+			"desc": "Elin (PO)"
+		},
+		"burcu": {
+			"country": "TR",
+			"language": "tr",
+			"gender": "F",
+			"source": "polly",
+			"arg": "Burcu",
+			"desc": "Burcu"
+		}
 	},
 	"languages": {
 			"af": "Afrikaans",
