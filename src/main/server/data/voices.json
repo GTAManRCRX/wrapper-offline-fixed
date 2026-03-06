@@ -12801,7 +12801,7 @@
 			"gender": "F",
             "source": "bing",
 			"arg": "zh-CN-liaoning-XiaobeiNeural",
-			"desc": "Xiaobei"
+			"desc": "Xiaobei (Liaoning)"
 		},
 		"zh-CN-shaanxi-XiaoniNeural": {
 			"country": "CN",
@@ -12809,7 +12809,7 @@
 			"gender": "F",
             "source": "bing",
 			"arg": "zh-CN-shaanxi-XiaoniNeural",
-			"desc": "Xiaoni"
+			"desc": "Xiaoni (Shaanxi)"
 		},
 		"zh-HK-HiuMaanNeural": {
 			"country": "HK",
