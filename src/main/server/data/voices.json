@@ -1142,7 +1142,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "Klaus22k_HQ",
-			"desc": "Klaus"
+			"desc": "Klaus (Acapela)"
 		},
 		"lea22k": {
 			"country": "DE",
@@ -1278,7 +1278,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "Sakura22k_HQ",
-			"desc": "Sakura"
+			"desc": "Sakura (Acapela)"
 		},
 		"minji22k": {
 			"country": "KR",
@@ -2023,6 +2023,94 @@
             "source": "bing",
 			"arg": "de-DE-KillianNeural",
 			"desc": "Killian"
+		},
+		"de-DE-ElkeNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+            "source": "azure",
+			"arg": "de-DE-ElkeNeural",
+			"desc": "Elke"
+		},
+		"de-DE-GiselaNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+            "source": "azure",
+			"arg": "de-DE-GiselaNeural",
+			"desc": "Gisela"
+		},
+		"de-DE-KlarissaNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+            "source": "azure",
+			"arg": "de-DE-KlarissaNeural",
+			"desc": "Klarissa"
+		},
+		"de-DE-LouisaNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+            "source": "azure",
+			"arg": "de-DE-LouisaNeural",
+			"desc": "Louisa"
+		},
+		"de-DE-MajaNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+            "source": "azure",
+			"arg": "de-DE-MajaNeural",
+			"desc": "Maja"
+		},
+		"de-DE-TanjaNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "F",
+            "source": "azure",
+			"arg": "de-DE-TanjaNeural",
+			"desc": "Tanja"
+		},
+		"de-DE-BerndNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+            "source": "azure",
+			"arg": "de-DE-BerndNeural",
+			"desc": "Bernd"
+		},
+		"de-DE-ChristophNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+            "source": "azure",
+			"arg": "de-DE-ChristophNeural",
+			"desc": "Christoph"
+		},
+		"de-DE-KasperNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+            "source": "azure",
+			"arg": "de-DE-KasperNeural",
+			"desc": "Kasper"
+		},
+		"de-DE-KlausNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+            "source": "azure",
+			"arg": "de-DE-KlausNeural",
+			"desc": "Klaus (Azure)"
+		},
+		"de-DE-RalfNeural": {
+			"country": "DE",
+			"language": "de",
+			"gender": "M",
+            "source": "azure",
+			"arg": "de-DE-RalfNeural",
+			"desc": "Ralf"
 		},
 		"de-DE-SeraphinaNeural": {
 			"country": "DE",
@@ -3032,6 +3120,86 @@
 			"arg": "fr-FR-EloiseNeural",
 			"desc": "Eloise"
 		},
+		"fr-FR-CelesteNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+            "source": "azure",
+			"arg": "fr-FR-CelesteNeural",
+			"desc": "Celeste"
+		},
+		"fr-FR-CoralieNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+            "source": "azure",
+			"arg": "fr-FR-CoralieNeural",
+			"desc": "Coralie"
+		},
+		"fr-FR-JacquelineNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+            "source": "azure",
+			"arg": "fr-FR-JacquelineNeural",
+			"desc": "Jacqueline"
+		},
+		"fr-FR-JosephineNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+            "source": "azure",
+			"arg": "fr-FR-JosephineNeural",
+			"desc": "Josephine"
+		},
+		"fr-FR-AlainNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+            "source": "azure",
+			"arg": "fr-FR-AlainNeural",
+			"desc": "Alain (Azure)"
+		},
+		"fr-FR-ClaudeNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+            "source": "azure",
+			"arg": "fr-FR-ClaudeNeural",
+			"desc": "Claude"
+		},
+		"fr-FR-JeromeNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+            "source": "azure",
+			"arg": "fr-FR-JeromeNeural",
+			"desc": "Jerome"
+		},
+		"fr-FR-MauriceNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+            "source": "azure",
+			"arg": "fr-FR-MauriceNeural",
+			"desc": "Maurice"
+		},
+		"fr-FR-YvesNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "M",
+            "source": "azure",
+			"arg": "fr-FR-YvesNeural",
+			"desc": "Yves"
+		},
+		"fr-FR-YvetteNeural": {
+			"country": "FR",
+			"language": "fr",
+			"gender": "F",
+            "source": "azure",
+			"arg": "fr-FR-YvetteNeural",
+			"desc": "Yvette"
+		},
 		"fr-FR-VivienneNeural": {
 			"country": "FR",
 			"language": "fr",
@@ -3224,6 +3392,102 @@
 			"arg": "it-IT-DiegoNeural",
 			"desc": "Diego"
 		},
+		"it-IT-BenignoNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+            "source": "azure",
+			"arg": "it-IT-BenignoNeural",
+			"desc": "Benigno"
+		},
+		"it-IT-CalimeroNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+            "source": "azure",
+			"arg": "it-IT-CalimeroNeural",
+			"desc": "Calimero"
+		},
+		"it-IT-CataldoNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+            "source": "azure",
+			"arg": "it-IT-CataldoNeural",
+			"desc": "Cataldo"
+		},
+		"it-IT-FabiolaNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+            "source": "azure",
+			"arg": "it-IT-FabiolaNeural",
+			"desc": "Fabiola"
+		},
+		"it-IT-FiammaNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+            "source": "azure",
+			"arg": "it-IT-Neural",
+			"desc": "Fiamma"
+		},
+		"it-IT-GianniNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+            "source": "azure",
+			"arg": "it-IT-GianniNeural",
+			"desc": "Gianni"
+		},
+		"it-IT-ImeldaNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+            "source": "azure",
+			"arg": "it-IT-ImeldaNeural",
+			"desc": "Imelda"
+		},
+		"it-IT-IrmaNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+            "source": "azure",
+			"arg": "it-IT-IrmaNeural",
+			"desc": "Irma"
+		},
+		"it-IT-LisandroNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+            "source": "azure",
+			"arg": "it-IT-LisandroNeural",
+			"desc": "Lisandro"
+		},
+		"it-IT-PalmiraNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+            "source": "azure",
+			"arg": "it-IT-PalmiraNeural",
+			"desc": "Palmira"
+		},
+		"it-IT-PierinaNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "F",
+            "source": "azure",
+			"arg": "it-IT-PierinaNeural",
+			"desc": "Pierina"
+		},
+		"it-IT-RinaldoNeural": {
+			"country": "IT",
+			"language": "it",
+			"gender": "M",
+            "source": "azure",
+			"arg": "it-IT-RinaldoNeural",
+			"desc": "Rinaldo"
+		},
 		"it-IT-GiuseppeNeural": {
 			"country": "IT",
 			"language": "it",
@@ -3264,6 +3528,54 @@
 			"arg": "ja-JP-KeitaNeural",
 			"desc": "Keita"
 		},
+		"ja-JP-AoiNeural": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+            "source": "azure",
+			"arg": "ja-JP-AoiNeural",
+			"desc": "Aoi"
+		},
+		"ja-JP-DaichiNeural": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "M",
+            "source": "azure",
+			"arg": "ja-JP-DaichiNeural",
+			"desc": "Daichi"
+		},
+		"ja-JP-MayuNeural": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+            "source": "azure",
+			"arg": "ja-JP-MayuNeural",
+			"desc": "Mayu"
+		},
+		"ja-JP-NaokiNeural": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "M",
+            "source": "azure",
+			"arg": "ja-JP-NaokiNeural",
+			"desc": "Naoki (Azure)"
+		},
+		"ja-JP-ShioriNeural": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "F",
+            "source": "azure",
+			"arg": "ja-JP-ShioriNeural",
+			"desc": "Shiori"
+		},
+		"ja-JP-MasaruNeural": {
+			"country": "JP",
+			"language": "ja",
+			"gender": "M",
+            "source": "azure",
+			"arg": "ja-JP-MasaruMultilingualNeural",
+			"desc": "Masaru"
+		},
 		"kn-IN-SapnaNeural": {
 			"country": "IN",
 			"language": "kn",
@@ -3295,6 +3607,54 @@
             "source": "bing",
 			"arg": "ko-KR-InJoonNeural",
 			"desc": "InJoon"
+		},
+		"ko-KR-BongJinNeural": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "M",
+            "source": "azure",
+			"arg": "ko-KR-BongJinNeural",
+			"desc": "BongJin"
+		},
+		"ko-KR-GookMinNeural": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "M",
+            "source": "azure",
+			"arg": "ko-KR-GookMinNeural",
+			"desc": "GookMin"
+		},
+		"ko-KR-JiMinNeural": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "F",
+            "source": "azure",
+			"arg": "ko-KR-JiMinNeural",
+			"desc": "Jimin (Azure)"
+		},
+		"ko-KR-SeoHyeonNeural": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "F",
+            "source": "azure",
+			"arg": "ko-KR-SeoHyeonNeural",
+			"desc": "SeoHyeon"
+		},
+		"ko-KR-SoonBokNeural": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "F",
+            "source": "azure",
+			"arg": "ko-KR-SoonBokNeural",
+			"desc": "SoonBok"
+		},
+		"ko-KR-YuJinNeural": {
+			"country": "KR",
+			"language": "ko",
+			"gender": "F",
+            "source": "azure",
+			"arg": "ko-KR-YuJinNeural",
+			"desc": "YuJin"
 		},
 		"ko-KR-HyunsuNeural": {
 			"country": "KR",
@@ -9531,37 +9891,13 @@
 			"source": "tiktok",
 			"desc": "Smooth"
 		},
-        "en_male_adam": {
-            "country": "AU",
-            "language": "en",
-            "gender": "M",
-            "arg": "en_male_adam",
-            "source": "tiktok",
-            "desc": "Adam (TikTok)"
-        },
-        "en_female_sarah": {
-            "country": "AU",
-            "language": "en",
-            "gender": "F",
-            "arg": "en_female_sarah",
-            "source": "tiktok",
-            "desc": "Sarah (TikTok)"
-        },
-        "en_male_dryw": {
-            "country": "AU",
-            "language": "en",
-            "gender": "M",
-            "arg": "en_male_dryw",
-            "source": "tiktok",
-            "desc": "Dryw"
-        },
         "en_male_funny": {
             "country": "GB",
             "language": "en",
             "gender": "M",
             "arg": "en_male_funny",
             "source": "tiktok",
-            "desc": "Wacky"
+            "desc": "Funny"
         },
         "en_female_emotional": {
             "country": "GB",
@@ -9569,24 +9905,8 @@
             "gender": "F",
             "arg": "en_female_emotional",
             "source": "tiktok",
-            "desc": "Peaceful"
+            "desc": "Emotional"
         },
-        "en_male_mason": {
-            "country": "GB",
-            "language": "en",
-            "gender": "M",
-            "arg": "en_male_mason",
-            "source": "tiktok",
-            "desc": "Mason"
-        },		
-        "en_male_ryan": {
-            "country": "GB",
-            "language": "en",
-            "gender": "M",
-            "arg": "en_male_ryan",
-            "source": "tiktok",
-            "desc": "Ryan (TikTok)"
-        },		
         "en_male_smith": {
             "country": "GB",
             "language": "en",
@@ -10833,7 +11153,7 @@
 			"gender": "F",
 			"arg": "jp_003",
 			"source": "tiktok",
-			"desc": "Koharu"
+			"desc": "Keiko"
 		},
 		"tiktok_jp_005": {
 			"country": "JP",
@@ -10841,7 +11161,7 @@
 			"gender": "F",
 			"arg": "jp_005",
 			"source": "tiktok",
-			"desc": "Hanako"
+			"desc": "Sakura (TikTok)"
 		},
 		"tiktok_jp_006": {
 			"country": "JP",
@@ -10849,7 +11169,7 @@
 			"gender": "M",
 			"arg": "jp_006",
 			"source": "tiktok",
-			"desc": "Naoki"
+			"desc": "Naoki (TikTok)"
 		},
         "jp_male_osada": {
             "country": "JP",
@@ -12097,7 +12417,7 @@
 			"gender": "F",
 			"arg": [3, 13, 5],
 			"source": "vocalware",
-			"desc": "Jimin"
+			"desc": "Jimin (Vocalware)"
 		},
 		"oc_junwoo": {
 			"country": "KR",
