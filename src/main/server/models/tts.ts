@@ -372,24 +372,34 @@ export default function processVoice(
 					break;
 				}
 				case "pollypluswavenet": {
-					const q = new URLSearchParams({
+					const query = new URLSearchParams({
 						voice: voice.arg,
 						text: text,
 					}).toString();
-					const req = https.get(`https://api.textreader.pro/tts?${q}`, (res) => {
-						if (res.statusCode !== 200) {
-							console.error(`Pollypluswavenet error: ${res.statusCode}`);
-							return reject("Service unavailable");
+					const req = https.get(
+						{
+							hostname: "streamlabs.com",
+							path: `/polly/speak?${query}`,
+							method: "POST",
+							headers: {"referer": "https://streamlabs.com"}
+						}, (r) => {
+							let body = "";
+							r.on("data", (d) => body += d);
+							r.on("end", () => {
+								try {
+									const json = JSON.parse(body);
+									if (!json.success) {
+										return rej("Pollypluswavenet error: " + json.message);
+									}
+									const url = json.speak_url;
+									https.get(url, resolve);
+								} catch (e) {
+									return rej(e);
+								}
+							});
 						}
-						resolve(res);
-					});
-					req.on("error", (err) => {
-						console.error("Network error:", err.message);
-						reject(err);
-					});
-					req.setTimeout(10000, () => {req.destroy();
-						reject("Request timed out");
-					});
+					);
+					req.on("error", (e) => rej(e));
 					break;
 				}
 				case "readloud": {
