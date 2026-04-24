@@ -7991,7 +7991,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Amy",
 			"desc": "Amy (PW)"
 		},
@@ -7999,7 +7999,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Brian",
 			"desc": "Brian (PW)"
 		},
@@ -8007,7 +8007,7 @@
 			"country": "CA",
 			"language": "fr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Chantal",
 			"desc": "Chantal (PW)"
 		},
@@ -8015,7 +8015,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Emma",
 			"desc": "Emma (PW)"
 		},
@@ -8023,7 +8023,7 @@
 			"country": "DE",
 			"language": "de",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Hans",
 			"desc": "Hans (PW)"
 		},
@@ -8031,7 +8031,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Ivy",
 			"desc": "Ivy (PW)"
 		},
@@ -8039,7 +8039,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Joanna",
 			"desc": "Joanna"
 		},
@@ -8047,7 +8047,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Joey",
 			"desc": "Joey (PW)"
 		},
@@ -8055,7 +8055,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Justin",
 			"desc": "Justin (PW)"
 		},
@@ -8063,7 +8063,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Kendra",
 			"desc": "Kendra (PW)"
 		},
@@ -8071,7 +8071,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Kimberly",
 			"desc": "Kimberly (PW)"
 		},
@@ -8079,7 +8079,7 @@
 			"country": "FR",
 			"language": "fr",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Mathieu",
 			"desc": "Mathieu (PW)"
 		},
@@ -8087,7 +8087,7 @@
 			"country": "ru",
 			"language": "ru",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Maxim",
 			"desc": "Maxim"
 		},
@@ -8095,7 +8095,7 @@
 			"country": "ja",
 			"language": "ja",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Mizuki",
 			"desc": "Mizuki"
 		},
@@ -8103,7 +8103,7 @@
 			"country": "AU",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Nicole",
 			"desc": "Nicole (PW)"
 		},
@@ -8111,7 +8111,7 @@
 			"country": "IN",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Raveena",
 			"desc": "Raveena"
 		},
@@ -8119,7 +8119,7 @@
 			"country": "AU",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Russell",
 			"desc": "Russell (PW)"
 		},
@@ -8127,7 +8127,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "Salli",
 			"desc": "Salli (PW)"
 		},
@@ -8135,7 +8135,7 @@
 			"country": "ar",
 			"language": "ar",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ar-XA-Wavenet-A",
 			"desc": "Amina"
 		},
@@ -8143,7 +8143,7 @@
 			"country": "ar",
 			"language": "ar",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ar-XA-Wavenet-B",
 			"desc": "Jamal"
 		},	
@@ -8151,7 +8151,7 @@
 			"country": "TW",
 			"language": "zh",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cmn-TW-Wavenet-A",
 			"desc": "Chia-Ling"
 		},
@@ -8159,7 +8159,7 @@
 			"country": "TW",
 			"language": "zh",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cmn-TW-Wavenet-B",
 			"desc": "Chia-Hao"
 		},
@@ -8167,7 +8167,7 @@
 			"country": "cs",
 			"language": "cs",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cs-CZ-Wavenet-B",
 			"desc": "Pavla"
 		},
@@ -8175,7 +8175,7 @@
 			"country": "da",
 			"language": "da",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "da-DK-Wavenet-F",
 			"desc": "Dagny"
 		},
@@ -8183,7 +8183,7 @@
 			"country": "da",
 			"language": "da",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "da-DK-Wavenet-G",
 			"desc": "Erik"
 		},
@@ -8191,7 +8191,7 @@
 			"country": "nl",
 			"language": "nl",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "nl-NL-Wavenet-F",
 			"desc": "Famke"
 		},
@@ -8199,7 +8199,7 @@
 			"country": "nl",
 			"language": "nl",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "nl-NL-Wavenet-G",
 			"desc": "Dirk"
 		},
@@ -8207,7 +8207,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-GB-Wavenet-F",
 			"desc": "Olivia (Google)"
 		},
@@ -8215,7 +8215,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-GB-Wavenet-B",
 			"desc": "Oliver (Google)"
 		},
@@ -8223,7 +8223,7 @@
 			"country": "AU",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-AU-Wavenet-A",
 			"desc": "Matilda (PW)"
 		},
@@ -8231,7 +8231,7 @@
 			"country": "AU",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-AU-Wavenet-B",
 			"desc": "Jackson (Google)"
 		},
@@ -8239,7 +8239,7 @@
 			"country": "IN",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-IN-Wavenet-A",
 			"desc": "Lakshmi"
 		},
@@ -8247,7 +8247,7 @@
 			"country": "IN",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-IN-Wavenet-C",
 			"desc": "Prashant"
 		},
@@ -8255,7 +8255,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-I",
 			"desc": "Warren"
 		},
@@ -8263,7 +8263,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-GB-Wavenet-O",
 			"desc": "Gilbert"
 		},
@@ -8271,7 +8271,7 @@
 			"country": "fil",
 			"language": "fil",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fil-PH-Wavenet-A",
 			"desc": "Mayumi"
 		},
@@ -8279,7 +8279,7 @@
 			"country": "fil",
 			"language": "fil",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fil-PH-Wavenet-D",
 			"desc": "Datu"
 		},
@@ -8287,7 +8287,7 @@
 			"country": "fi",
 			"language": "fi",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fi-FI-Wavenet-B",
 			"desc": "Sanna (Google)"
 		},
@@ -8295,7 +8295,7 @@
 			"country": "FR",
 			"language": "fr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fr-FR-Wavenet-F",
 			"desc": "Beatrice"
 		},
@@ -8303,7 +8303,7 @@
 			"country": "FR",
 			"language": "fr",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fr-FR-Wavenet-G",
 			"desc": "Antoine (Google)"
 		},
@@ -8311,7 +8311,7 @@
 			"country": "CA",
 			"language": "fr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fr-CA-Wavenet-A",
 			"desc": "Leonie"
 		},
@@ -8319,7 +8319,7 @@
 			"country": "CA",
 			"language": "fr",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fr-CA-Wavenet-B",
 			"desc": "Gaspard"
 		},
@@ -8327,7 +8327,7 @@
 			"country": "DE",
 			"language": "de",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "de-DE-Wavenet-G",
 			"desc": "Hilda"
 		},
@@ -8335,7 +8335,7 @@
 			"country": "DE",
 			"language": "de",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "de-DE-Wavenet-H",
 			"desc": "Heinz"
 		},
@@ -8343,7 +8343,7 @@
 			"country": "GR",
 			"language": "el",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "el-GR-Wavenet-B",
 			"desc": "Eleni"
 		},
@@ -8351,7 +8351,7 @@
 			"country": "IN",
 			"language": "hi",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "hi-IN-Wavenet-A",
 			"desc": "Swathi"
 		},
@@ -8359,7 +8359,7 @@
 			"country": "IN",
 			"language": "hi",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "hi-IN-Wavenet-B",
 			"desc": "Karan"
 		},
@@ -8367,7 +8367,7 @@
 			"country": "hu",
 			"language": "hu",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "hu-HU-Wavenet-B",
 			"desc": "Flora"
 		},
@@ -8375,7 +8375,7 @@
 			"country": "id",
 			"language": "id",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "id-ID-Wavenet-A",
 			"desc": "Putri"
 		},
@@ -8383,7 +8383,7 @@
 			"country": "id",
 			"language": "id",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "id-ID-Wavenet-C",
 			"desc": "Bintang"
 		},
@@ -8391,7 +8391,7 @@
 			"country": "it",
 			"language": "it",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "it-IT-Wavenet-E",
 			"desc": "Bianca (Google)"
 		},
@@ -8399,7 +8399,7 @@
 			"country": "it",
 			"language": "it",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "it-IT-Wavenet-F",
 			"desc": "Alessandro"
 		},
@@ -8407,7 +8407,7 @@
 			"country": "ja",
 			"language": "ja",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ja-JP-Wavenet-A",
 			"desc": "Himari"
 		},
@@ -8415,7 +8415,7 @@
 			"country": "ja",
 			"language": "ja",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ja-JP-Wavenet-C",
 			"desc": "Kaito"
 		},
@@ -8423,7 +8423,7 @@
 			"country": "no",
 			"language": "no",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "nb-NO-Wavenet-F",
 			"desc": "Dagrun"
 		},
@@ -8431,7 +8431,7 @@
 			"country": "no",
 			"language": "no",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "nb-NO-Wavenet-G",
 			"desc": "Lars"
 		},
@@ -8439,7 +8439,7 @@
 			"country": "pl",
 			"language": "pl",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pl-PL-Wavenet-F",
 			"desc": "Danota"
 		},
@@ -8447,7 +8447,7 @@
 			"country": "pl",
 			"language": "pl",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pl-PL-Wavenet-G",
 			"desc": "Wojciech"
 		},
@@ -8455,7 +8455,7 @@
 			"country": "BR",
 			"language": "pt",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pt-BR-Wavenet-A",
 			"desc": "Ana (PW)"
 		},
@@ -8463,7 +8463,7 @@
 			"country": "BR",
 			"language": "pt",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pt-BR-Wavenet-B",
 			"desc": "Antonio"
 		},
@@ -8471,7 +8471,7 @@
 			"country": "PT",
 			"language": "pt",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pt-PT-Wavenet-F",
 			"desc": "Leonor"
 		},
@@ -8479,7 +8479,7 @@
 			"country": "PT",
 			"language": "pt",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pt-PT-Wavenet-G",
 			"desc": "Tiago"
 		},
@@ -8487,7 +8487,7 @@
 			"country": "sk",
 			"language": "sk",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sk-SK-Wavenet-B",
 			"desc": "Eliska"
 		},
@@ -8495,7 +8495,7 @@
 			"country": "sv",
 			"language": "sv",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sv-SE-Wavenet-A",
 			"desc": "Astrid (Google)"
 		},
@@ -8503,7 +8503,7 @@
 			"country": "sv",
 			"language": "sv",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sv-SE-Wavenet-G",
 			"desc": "Gustav"
 		},
@@ -8511,7 +8511,7 @@
 			"country": "tr",
 			"language": "tr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "tr-TR-Wavenet-A",
 			"desc": "Zehra"
 		},
@@ -8519,7 +8519,7 @@
 			"country": "tr",
 			"language": "tr",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "tr-TR-Wavenet-B",
 			"desc": "Eymen"
 		},
@@ -8527,7 +8527,7 @@
 			"country": "uk",
 			"language": "uk",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "uk-UA-Wavenet-B",
 			"desc": "Vira"
 		},
@@ -8535,7 +8535,7 @@
 			"country": "vi",
 			"language": "vi",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "vi-VN-Wavenet-B",
 			"desc": "Nguyet"
 		},
@@ -8543,7 +8543,7 @@
 			"country": "vi",
 			"language": "vi",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "vi-VN-Wavenet-C",
 			"desc": "Phuong"
 		},
@@ -8551,7 +8551,7 @@
 			"country": "ES",
 			"language": "es",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "es-ES-Wavenet-E",
 			"desc": "Ernesto"
 		},
@@ -8559,7 +8559,7 @@
 			"country": "ES",
 			"language": "es",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "es-ES-Wavenet-F",
 			"desc": "Camila (Google)"
 		},
@@ -8567,7 +8567,7 @@
 			"country": "ES",
 			"language": "es",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "es-ES-Wavenet-G",
 			"desc": "Jose"
 		},
@@ -8575,7 +8575,7 @@
 			"country": "ES",
 			"language": "es",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "es-ES-Wavenet-H",
 			"desc": "Pilar"
 		},	
@@ -8583,7 +8583,7 @@
 			"country": "US",
 			"language": "es",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "es-US-Wavenet-A",
 			"desc": "Valentina"
 		},
@@ -8591,7 +8591,7 @@
 			"country": "US",
 			"language": "es",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "es-US-Wavenet-B",
 			"desc": "Luis"
 		},	
@@ -8599,7 +8599,7 @@
 			"country": "US",
 			"language": "es",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "es-US-Wavenet-C",
 			"desc": "Martin"
 		},		
@@ -8607,7 +8607,7 @@
 			"country": "BE",
 			"language": "nl",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "nl-BE-Wavenet-C",
 			"desc": "Jolien"
 		},
@@ -8615,7 +8615,7 @@
 			"country": "BE",
 			"language": "nl",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "nl-BE-Wavenet-D",
 			"desc": "Ward"
 		},
@@ -8623,7 +8623,7 @@
 			"country": "ko",
 			"language": "ko",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ko-KR-Wavenet-A",
 			"desc": "Heosu"
 		},		
@@ -8631,7 +8631,7 @@
 			"country": "ko",
 			"language": "ko",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ko-KR-Wavenet-B",
 			"desc": "Daeshim"
 		},		
@@ -8639,7 +8639,7 @@
 			"country": "ko",
 			"language": "ko",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ko-KR-Wavenet-C",
 			"desc": "Sujin"
 		},		
@@ -8647,7 +8647,7 @@
 			"country": "ko",
 			"language": "ko",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ko-KR-Wavenet-D",
 			"desc": "Minjun"
 		},
@@ -8655,7 +8655,7 @@
 			"country": "sv",
 			"language": "sv",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sv-SE-Wavenet-B",
 			"desc": "Elsa"
 		},
@@ -8663,7 +8663,7 @@
 			"country": "sv",
 			"language": "sv",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sv-SE-Wavenet-C",
 			"desc": "Johan"
 		},
@@ -8671,7 +8671,7 @@
 			"country": "sv",
 			"language": "sv",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sv-SE-Wavenet-D",
 			"desc": "Hedvig"
 		},
@@ -8679,7 +8679,7 @@
 			"country": "sv",
 			"language": "sv",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sv-SE-Wavenet-E",
 			"desc": "Nils"
 		},
@@ -8687,7 +8687,7 @@
 			"country": "sv",
 			"language": "sv",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "sv-SE-Wavenet-F",
 			"desc": "Ingrid (Google)"
 		},
@@ -8695,7 +8695,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-A",
 			"desc": "Carter"
 		},
@@ -8703,7 +8703,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-B",
 			"desc": "Paul (Google)"
 		},
@@ -8711,7 +8711,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-C",
 			"desc": "Evelyn"
 		},
@@ -8719,7 +8719,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-D",
 			"desc": "Liam (Google)"
 		},
@@ -8727,7 +8727,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-E",
 			"desc": "Jasmine"
 		},
@@ -8735,7 +8735,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-F",
 			"desc": "Madison"
 		},
@@ -8743,7 +8743,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-G",
 			"desc": "Vanessa"
 		},
@@ -8751,7 +8751,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-H",
 			"desc": "Audrey"
 		},
@@ -8759,7 +8759,7 @@
 			"country": "US",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-US-Wavenet-J",
 			"desc": "Mark (Google)"
 		},
@@ -8767,7 +8767,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-GB-Wavenet-A",
 			"desc": "Layla"
 		},
@@ -8775,7 +8775,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-GB-Wavenet-C",
 			"desc": "Scarlett"
 		},
@@ -8783,7 +8783,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-GB-Wavenet-D",
 			"desc": "Ali"
 		},
@@ -8791,7 +8791,7 @@
 			"country": "GB",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-GB-Wavenet-N",
 			"desc": "Bella (PW)"
 		},
@@ -8799,7 +8799,7 @@
 			"country": "AU",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-AU-Wavenet-C",
 			"desc": "Courtney"
 		},
@@ -8807,7 +8807,7 @@
 			"country": "AU",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-AU-Wavenet-D",
 			"desc": "Jayden"
 		},
@@ -8815,7 +8815,7 @@
 			"country": "CA",
 			"language": "fr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fr-CA-Wavenet-C",
 			"desc": "Camille"
 		},
@@ -8823,7 +8823,7 @@
 			"country": "CA",
 			"language": "fr",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fr-CA-Wavenet-D",
 			"desc": "Jacques"
 		},		
@@ -8831,7 +8831,7 @@
 			"country": "ru",
 			"language": "ru",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ru-RU-Wavenet-A",
 			"desc": "Masha"
 		},
@@ -8839,7 +8839,7 @@
 			"country": "ru",
 			"language": "ru",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ru-RU-Wavenet-B",
 			"desc": "Ilya"
 		},	
@@ -8847,7 +8847,7 @@
 			"country": "ru",
 			"language": "ru",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ru-RU-Wavenet-C",
 			"desc": "Alena"
 		},
@@ -8855,7 +8855,7 @@
 			"country": "ru",
 			"language": "ru",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ru-RU-Wavenet-D",
 			"desc": "Petr"
 		},
@@ -8863,7 +8863,7 @@
 			"country": "ru",
 			"language": "ru",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ru-RU-Wavenet-E",
 			"desc": "Katerina"
 		},
@@ -8871,7 +8871,7 @@
 			"country": "tr",
 			"language": "tr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "tr-TR-Wavenet-C",
 			"desc": "Miray"
 		},
@@ -8879,7 +8879,7 @@
 			"country": "tr",
 			"language": "tr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "tr-TR-Wavenet-D",
 			"desc": "Elif"
 		},
@@ -8887,7 +8887,7 @@
 			"country": "tr",
 			"language": "tr",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "tr-TR-Wavenet-E",
 			"desc": "Enes"
 		},
@@ -8895,7 +8895,7 @@
 			"country": "ar",
 			"language": "ar",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ar-XA-Wavenet-C",
 			"desc": "Ahmad"
 		},
@@ -8903,7 +8903,7 @@
 			"country": "ar",
 			"language": "ar",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ar-XA-Wavenet-D",
 			"desc": "Aisha"
 		},
@@ -8911,7 +8911,7 @@
 			"country": "IN",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-IN-Wavenet-B",
 			"desc": "Sundar"
 		},
@@ -8919,7 +8919,7 @@
 			"country": "IN",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-IN-Wavenet-D",
 			"desc": "Juhi"
 		},
@@ -8927,7 +8927,7 @@
 			"country": "IN",
 			"language": "en",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-IN-Wavenet-E",
 			"desc": "Riya"
 		},
@@ -8935,7 +8935,7 @@
 			"country": "IN",
 			"language": "en",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "en-IN-Wavenet-F",
 			"desc": "Satya"
 		},
@@ -8943,7 +8943,7 @@
 			"country": "IN",
 			"language": "hi",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "hi-IN-Wavenet-C",
 			"desc": "Aadhav"
 		},
@@ -8951,7 +8951,7 @@
 			"country": "IN",
 			"language": "hi",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "hi-IN-Wavenet-D",
 			"desc": "Vanya"
 		},
@@ -8959,7 +8959,7 @@
 			"country": "IN",
 			"language": "hi",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "hi-IN-Wavenet-E",
 			"desc": "Tanvi"
 		},
@@ -8967,7 +8967,7 @@
 			"country": "IN",
 			"language": "hi",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "hi-IN-Wavenet-F",
 			"desc": "Ishaan"
 		},
@@ -8975,7 +8975,7 @@
 			"country": "bn",
 			"language": "bn",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "bn-IN-Wavenet-A",
 			"desc": "Nandini"
 		},
@@ -8983,7 +8983,7 @@
 			"country": "bn",
 			"language": "bn",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "bn-IN-Wavenet-B",
 			"desc": "Sabyasachi"
 		},
@@ -8991,7 +8991,7 @@
 			"country": "bn",
 			"language": "bn",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "bn-IN-Wavenet-C",
 			"desc": "Purnima"
 		},
@@ -8999,7 +8999,7 @@
 			"country": "bn",
 			"language": "bn",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "bn-IN-Wavenet-D",
 			"desc": "Tanmay"
 		},
@@ -9007,7 +9007,7 @@
 			"country": "gu",
 			"language": "gu",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "gu-IN-Wavenet-A",
 			"desc": "Hiral"
 		},
@@ -9015,7 +9015,7 @@
 			"country": "gu",
 			"language": "gu",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "gu-IN-Wavenet-B",
 			"desc": "Kiaan"
 		},
@@ -9023,7 +9023,7 @@
 			"country": "gu",
 			"language": "gu",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "gu-IN-Wavenet-C",
 			"desc": "Priyanshi"
 		},
@@ -9031,7 +9031,7 @@
 			"country": "gu",
 			"language": "gu",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "gu-IN-Wavenet-D",
 			"desc": "Shaurya"
 		},
@@ -9039,7 +9039,7 @@
 			"country": "kn",
 			"language": "kn",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "kn-IN-Wavenet-A",
 			"desc": "Megha"
 		},
@@ -9047,7 +9047,7 @@
 			"country": "kn",
 			"language": "kn",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "kn-IN-Wavenet-B",
 			"desc": "Manan"
 		},
@@ -9055,7 +9055,7 @@
 			"country": "kn",
 			"language": "kn",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "kn-IN-Wavenet-C",
 			"desc": "Kavya"
 		},
@@ -9063,7 +9063,7 @@
 			"country": "kn",
 			"language": "kn",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "kn-IN-Wavenet-D",
 			"desc": "Varun"
 		},
@@ -9071,7 +9071,7 @@
 			"country": "ml",
 			"language": "ml",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ml-IN-Wavenet-A",
 			"desc": "Jini"
 		},
@@ -9079,7 +9079,7 @@
 			"country": "ml",
 			"language": "ml",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ml-IN-Wavenet-B",
 			"desc": "Appu"
 		},
@@ -9087,7 +9087,7 @@
 			"country": "ml",
 			"language": "ml",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ml-IN-Wavenet-C",
 			"desc": "Thulasi"
 		},
@@ -9095,7 +9095,7 @@
 			"country": "ml",
 			"language": "ml",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ml-IN-Wavenet-D",
 			"desc": "Kuttappan"
 		},
@@ -9103,7 +9103,7 @@
 			"country": "mr",
 			"language": "mr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "mr-IN-Wavenet-A",
 			"desc": "Aishwarya"
 		},
@@ -9111,7 +9111,7 @@
 			"country": "mr",
 			"language": "mr",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "mr-IN-Wavenet-B",
 			"desc": "Reyansh"
 		},
@@ -9119,7 +9119,7 @@
 			"country": "mr",
 			"language": "mr",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "mr-IN-Wavenet-C",
 			"desc": "Vaishnavi"
 		},
@@ -9127,7 +9127,7 @@
 			"country": "pa",
 			"language": "pa",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pa-IN-Wavenet-A",
 			"desc": "Sehej"
 		},
@@ -9135,7 +9135,7 @@
 			"country": "pa",
 			"language": "pa",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pa-IN-Wavenet-B",
 			"desc": "Vikram"
 		},
@@ -9143,7 +9143,7 @@
 			"country": "pa",
 			"language": "pa",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pa-IN-Wavenet-C",
 			"desc": "Japnoor"
 		},
@@ -9151,7 +9151,7 @@
 			"country": "pa",
 			"language": "pa",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pa-IN-Wavenet-D",
 			"desc": "Gurnoor"
 		},
@@ -9159,7 +9159,7 @@
 			"country": "ta",
 			"language": "ta",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ta-IN-Wavenet-A",
 			"desc": "Abirami"
 		},
@@ -9167,7 +9167,7 @@
 			"country": "ta",
 			"language": "ta",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ta-IN-Wavenet-B",
 			"desc": "Mithran"
 		},
@@ -9175,7 +9175,7 @@
 			"country": "ta",
 			"language": "ta",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ta-IN-Wavenet-C",
 			"desc": "Yazhini"
 		},
@@ -9183,7 +9183,7 @@
 			"country": "ta",
 			"language": "ta",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ta-IN-Wavenet-D",
 			"desc": "Iniyan"
 		},
@@ -9191,7 +9191,7 @@
 			"country": "id",
 			"language": "id",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "id-ID-Wavenet-B",
 			"desc": "Budi"
 		},
@@ -9199,7 +9199,7 @@
 			"country": "id",
 			"language": "id",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "id-ID-Wavenet-D",
 			"desc": "Anisa"
 		},
@@ -9207,7 +9207,7 @@
 			"country": "ms",
 			"language": "ms",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ms-MY-Wavenet-A",
 			"desc": "Fatimah"
 		},
@@ -9215,7 +9215,7 @@
 			"country": "ms",
 			"language": "ms",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ms-MY-Wavenet-B",
 			"desc": "Zikri"
 		},
@@ -9223,7 +9223,7 @@
 			"country": "ms",
 			"language": "ms",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ms-MY-Wavenet-C",
 			"desc": "Khadijah"
 		},
@@ -9231,7 +9231,7 @@
 			"country": "ms",
 			"language": "ms",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ms-MY-Wavenet-D",
 			"desc": "Farhan"
 		},
@@ -9239,7 +9239,7 @@
 			"country": "he",
 			"language": "he",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "he-IL-Wavenet-A",
 			"desc": "Shira"
 		},
@@ -9247,7 +9247,7 @@
 			"country": "he",
 			"language": "he",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "he-IL-Wavenet-B",
 			"desc": "Binyamin"
 		},
@@ -9255,7 +9255,7 @@
 			"country": "he",
 			"language": "he",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "he-IL-Wavenet-C",
 			"desc": "Avigail"
 		},
@@ -9263,7 +9263,7 @@
 			"country": "he",
 			"language": "he",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "he-IL-Wavenet-D",
 			"desc": "Elijah"
 		},
@@ -9271,7 +9271,7 @@
 			"country": "ja",
 			"language": "ja",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ja-JP-Wavenet-B",
 			"desc": "Eiko"
 		},
@@ -9279,7 +9279,7 @@
 			"country": "ja",
 			"language": "ja",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ja-JP-Wavenet-D",
 			"desc": "Eichi"
 		},
@@ -9287,7 +9287,7 @@
 			"country": "zh",
 			"language": "zh",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cmn-CN-Wavenet-A",
 			"desc": "Li Na"
 		},
@@ -9295,7 +9295,7 @@
 			"country": "zh",
 			"language": "zh",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cmn-CN-Wavenet-B",
 			"desc": "Wang"
 		},
@@ -9303,7 +9303,7 @@
 			"country": "zh",
 			"language": "zh",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cmn-CN-Wavenet-C",
 			"desc": "Bai"
 		},
@@ -9311,7 +9311,7 @@
 			"country": "zh",
 			"language": "zh",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cmn-CN-Wavenet-D",
 			"desc": "Mingli"
 		},
@@ -9319,7 +9319,7 @@
 			"country": "TW",
 			"language": "zh",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "cmn-TW-Wavenet-C",
 			"desc": "Xin-De"
 		},
@@ -9327,7 +9327,7 @@
 			"country": "vi",
 			"language": "vi",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "vi-VN-Wavenet-A",
 			"desc": "Linh"
 		},
@@ -9335,7 +9335,7 @@
 			"country": "vi",
 			"language": "vi",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "vi-VN-Wavenet-D",
 			"desc": "Viet"
 		},
@@ -9343,7 +9343,7 @@
 			"country": "ur",
 			"language": "ur",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ur-IN-Wavenet-A",
 			"desc": "Shagufta"
 		},
@@ -9351,7 +9351,7 @@
 			"country": "ur",
 			"language": "ur",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ur-IN-Wavenet-B",
 			"desc": "Hamza"
 		},
@@ -9359,7 +9359,7 @@
 			"country": "fil",
 			"language": "fil",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fil-PH-Wavenet-B",
 			"desc": "Chesa"
 		},
@@ -9367,7 +9367,7 @@
 			"country": "fil",
 			"language": "fil",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "fil-PH-Wavenet-C",
 			"desc": "Bayani"
 		},
@@ -9375,7 +9375,7 @@
 			"country": "BR",
 			"language": "pt",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pt-BR-Wavenet-C",
 			"desc": "Alice"
 		},
@@ -9383,7 +9383,7 @@
 			"country": "BR",
 			"language": "pt",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pt-BR-Wavenet-D",
 			"desc": "Juliana"
 		},
@@ -9391,7 +9391,7 @@
 			"country": "BR",
 			"language": "pt",
 			"gender": "M",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "pt-BR-Wavenet-E",
 			"desc": "Renato"
 		},
@@ -9399,7 +9399,7 @@
 			"country": "ro",
 			"language": "ro",
 			"gender": "F",
-			"source": "pollypluswavenet",
+			"source": "polly",
 			"arg": "ro-RO-Wavenet-B",
 			"desc": "Andreea"
 		},

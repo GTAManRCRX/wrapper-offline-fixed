@@ -307,18 +307,16 @@ export default function processVoice(
 					break;
 				}
 				case "polly": {
-					const query = new URLSearchParams({
+					const q = new URLSearchParams({
 						voice: voice.arg,
 						text: text,
 					}).toString();
 					const req = https.get(
 						{
 							hostname: "streamlabs.com",
-							path: `/polly/speak?${query}`,
+							path: `/polly/speak?${q}`,
 							method: "POST",
-							headers: {
-								"referer": "https://streamlabs.com"
-							}
+							headers: {"referer": "https://streamlabs.com"}
 						}, (r) => {
 							let body = "";
 							r.on("data", (d) => body += d);
@@ -369,37 +367,6 @@ export default function processVoice(
 				});
 					req.on("error", (e) => reject(`Network error: ${e.message}`));
 					req.end(body);
-					break;
-				}
-				case "pollypluswavenet": {
-					const query = new URLSearchParams({
-						voice: voice.arg,
-						text: text,
-					}).toString();
-					const req = https.get(
-						{
-							hostname: "streamlabs.com",
-							path: `/polly/speak?${query}`,
-							method: "POST",
-							headers: {"referer": "https://streamlabs.com"}
-						}, (r) => {
-							let body = "";
-							r.on("data", (d) => body += d);
-							r.on("end", () => {
-								try {
-									const json = JSON.parse(body);
-									if (!json.success) {
-										return rej("Pollypluswavenet error: " + json.message);
-									}
-									const url = json.speak_url;
-									https.get(url, resolve);
-								} catch (e) {
-									return rej(e);
-								}
-							});
-						}
-					);
-					req.on("error", (e) => rej(e));
 					break;
 				}
 				case "readloud": {
