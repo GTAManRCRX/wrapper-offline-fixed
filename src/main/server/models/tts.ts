@@ -370,45 +370,29 @@ export default function processVoice(
 					break;
 				}
 				case "readloud": {
-				  const body = new URLSearchParams({
-					but1: text,
-					butS: 0,
-					butP: 0,
-					butPauses: 0,
-					butt0: "Submit",
-				  }).toString();
-				  const req = https
-					.request(
-					  {
-						hostname: "readloud.net",
-						path: voice.arg,
+					const body = new URLSearchParams({ but1: text, butS: 0, butP: 0, butPauses: 0, butt0: "Submit" }).toString();
+					const headers = { "User-Agent": "Mozilla/5.0", Referer: "https://readloud.net", Origin: "https://readloud.net" };
+					const req = https.request({
+						hostname: "readloud.net", 
+						path: voice.arg, 
 						method: "POST",
-						headers: {
-						  "Content-Type": "application/x-www-form-urlencoded",
-						},
-					  },
-					  (r) => {
-						if (r.statusCode !== 200) return reject(`Readloud error: HTTP ${r.statusCode}`);
-						let buffers = [];
-						r.on("error", (e) => reject(e));
-						r.on("data", (b) => buffers.push(b));
+						headers: { "Content-Type": "application/x-www-form-urlencoded", ...headers }
+					}, (r) => {
+						if (r.statusCode !== 200) return reject(`HTTP ${r.statusCode}`);
+						let html = "";
+						r.on("data", (b) => html += b);
 						r.on("end", () => {
-						  const html = Buffer.concat(buffers);
-						  const beg = html.indexOf("/tmp/");
-						  if (beg === -1) return reject("Readloud error: MP3 link not found in response");
-						  const end = html.indexOf("mp3", beg) + 3;
-						  const sub = html.subarray(beg, end).toString();
-						  if (!sub || sub === "mp3") return reject("Readloud error: Invalid MP3 path");
-						  https.get(`https://readloud.net${sub}`, (r2) => {
-							r2.on("error", (e) => reject(e));
-							resolve(r2);
-						  });
+							const beg = html.indexOf("/tmp/");
+							if (beg === -1) return reject("MP3 link not found");
+							const sub = html.substring(beg, html.indexOf("mp3", beg) + 3);
+							https.get({ hostname: "readloud.net", path: sub, headers }, (r2) => {
+								if (r2.statusCode !== 200) return reject(`MP3 HTTP ${r2.statusCode}`);
+								resolve(r2);
+							}).on("error", reject);
 						});
-					  }
-					)
-					.on("error", (e) => reject(e));
-				  req.end(body);
-				  break;
+					}).on("error", reject);
+					req.end(body);
+					break;
 				}
 				case "sapi4": {
 					const q = new URLSearchParams({
